@@ -9,6 +9,7 @@
     "rarity": "common",
     "probability": 0,
     "image": "/art/1000.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -21,6 +22,7 @@
     "rarity": "common",
     "probability": 0,
     "image": "/art/1010.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -34,6 +36,7 @@
     "rarity": "rare",
     "probability": 0,
     "image": "/art/1020.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -47,6 +50,7 @@
     "rarity": "epic",
     "probability": 0,
     "image": "/art/1040.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -60,6 +64,7 @@
     "rarity": "superrare",
     "probability": 0,
     "image": "/art/1050.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -72,6 +77,7 @@
     "rarity": "epic",
     "probability": 0,
     "image": "/art/1060.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -84,6 +90,7 @@
     "rarity": "rare",
     "probability": 0,
     "image": "/art/1070.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -97,6 +104,7 @@
     "rarity": "common",
     "probability": 44.94,
     "image": "/art/2000.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -110,7 +118,18 @@
     "rarity": "uncommon",
     "probability": 15.73,
     "image": "/art/2010.webp",
-    "nutrition": {}
+    "variants": [
+      "/art/2011.webp",
+      "/art/2012.webp"
+    ],
+    "nutrition": {},
+    "altArt": [
+      {
+        "image": "/art/9110.webp",
+        "artist": "Didi Mx",
+        "label": "Drizzle version: Pesto Swirl"
+      }
+    ]
   },
   {
     "sku": 2030,
@@ -123,7 +142,15 @@
     "rarity": "uncommon",
     "probability": 15.73,
     "image": "/art/2030.webp",
-    "nutrition": {}
+    "variants": [],
+    "nutrition": {},
+    "altArt": [
+      {
+        "image": "/art/9160.webp",
+        "artist": "Unknown",
+        "label": "Drizzle version: BBQ Sauce"
+      }
+    ]
   },
   {
     "sku": 2040,
@@ -136,6 +163,7 @@
     "rarity": "superrare",
     "probability": 2.25,
     "image": "/art/2040.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -148,6 +176,12 @@
     "rarity": "uncommon",
     "probability": 15.73,
     "image": "/art/2050.webp",
+    "variants": [
+      "/art/2051.webp",
+      "/art/2052.webp",
+      "/art/2053.webp",
+      "/art/2054.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -161,6 +195,7 @@
     "rarity": "superrare",
     "probability": 2.25,
     "image": "/art/2060.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -173,6 +208,11 @@
     "rarity": "epic",
     "probability": 1.12,
     "image": "/art/2070.webp",
+    "variants": [
+      "/art/2071.webp",
+      "/art/2072.webp",
+      "/art/2073.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -186,6 +226,7 @@
     "rarity": "superrare",
     "probability": 2.25,
     "image": "/art/2100.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -199,6 +240,7 @@
     "rarity": "common",
     "probability": 72.73,
     "image": "/art/3000.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -212,6 +254,7 @@
     "rarity": "uncommon",
     "probability": 1.82,
     "image": "/art/3010.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -225,6 +268,7 @@
     "rarity": "uncommon",
     "probability": 1.82,
     "image": "/art/3020.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -238,6 +282,11 @@
     "rarity": "uncommon",
     "probability": 1.82,
     "image": "/art/3030.webp",
+    "variants": [
+      "/art/3031.webp",
+      "/art/3032.webp",
+      "/art/3033.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -251,6 +300,7 @@
     "rarity": "uncommon",
     "probability": 1.82,
     "image": "/art/3080.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -262,6 +312,7 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/3090.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -276,6 +327,7 @@
     "rarity": "rare",
     "probability": 9.09,
     "image": "/art/3100.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -289,6 +341,9 @@
     "rarity": "superrare",
     "probability": 1.82,
     "image": "/art/3170.webp",
+    "variants": [
+      "/art/3171.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -303,6 +358,12 @@
     "rarity": "rare",
     "probability": 9.09,
     "image": "/art/3190.webp",
+    "variants": [
+      "/art/3191.webp",
+      "/art/3192.webp",
+      "/art/3193.webp",
+      "/art/3194.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -316,6 +377,14 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/4000.webp",
+    "variants": [
+      "/art/4001.webp",
+      "/art/4002.webp",
+      "/art/4003.webp",
+      "/art/4004.webp",
+      "/art/4005.webp",
+      "/art/4006.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -329,6 +398,10 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/4010.webp",
+    "variants": [
+      "/art/4011.webp",
+      "/art/4012.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -342,6 +415,9 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4020.webp",
+    "variants": [
+      "/art/4021.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -355,6 +431,16 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4030.webp",
+    "variants": [
+      "/art/4031.webp",
+      "/art/4032.webp",
+      "/art/4033.webp",
+      "/art/4034.webp",
+      "/art/4035.webp",
+      "/art/4036.webp",
+      "/art/4037.webp",
+      "/art/4038.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -367,6 +453,7 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/4040.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -379,6 +466,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4050.webp",
+    "variants": [
+      "/art/4051.webp"
+    ],
     "nutrition": {
       "cholesterol": 9,
       "added_sugars": 4050,
@@ -396,6 +486,14 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4060.webp",
+    "variants": [
+      "/art/4061.webp",
+      "/art/4062.webp",
+      "/art/4063.webp",
+      "/art/4064.webp",
+      "/art/4065.webp",
+      "/art/4066.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -409,6 +507,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4070.webp",
+    "variants": [
+      "/art/4071.webp",
+      "/art/4072.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -421,6 +523,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4080.webp",
+    "variants": [
+      "/art/4081.webp",
+      "/art/4082.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -435,6 +541,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4090.webp",
+    "variants": [
+      "/art/4091.webp",
+      "/art/4092.webp",
+      "/art/4093.webp",
+      "/art/4094.webp",
+      "/art/4095.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -448,6 +561,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4110.webp",
+    "variants": [
+      "/art/4111.webp",
+      "/art/4112.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -461,6 +578,7 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/4120.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -474,6 +592,12 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/4130.webp",
+    "variants": [
+      "/art/4131.webp",
+      "/art/4132.webp",
+      "/art/4133.webp",
+      "/art/4134.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -487,6 +611,10 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/4150.webp",
+    "variants": [
+      "/art/4151.webp",
+      "/art/4152.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -500,6 +628,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4160.webp",
+    "variants": [
+      "/art/4161.webp",
+      "/art/4162.webp",
+      "/art/4163.webp",
+      "/art/4164.webp",
+      "/art/4165.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -512,6 +647,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4180.webp",
+    "variants": [
+      "/art/4181.webp",
+      "/art/4182.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -525,6 +664,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4190.webp",
+    "variants": [
+      "/art/4191.webp",
+      "/art/4192.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -539,6 +682,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4200.webp",
+    "variants": [
+      "/art/4201.webp",
+      "/art/4202.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -551,6 +698,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/4210.webp",
+    "variants": [
+      "/art/4211.webp",
+      "/art/4212.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -564,6 +715,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4220.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -578,6 +730,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4230.webp",
+    "variants": [
+      "/art/4231.webp",
+      "/art/4232.webp",
+      "/art/4233.webp",
+      "/art/4234.webp",
+      "/art/4235.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -590,6 +749,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4240.webp",
+    "variants": [
+      "/art/4241.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -602,6 +764,10 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/4260.webp",
+    "variants": [
+      "/art/4261.webp",
+      "/art/4262.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -615,6 +781,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/4270.webp",
+    "variants": [
+      "/art/4271.webp",
+      "/art/4272.webp",
+      "/art/4273.webp",
+      "/art/4274.webp",
+      "/art/4275.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -628,6 +801,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4280.webp",
+    "variants": [
+      "/art/4281.webp",
+      "/art/4282.webp",
+      "/art/4283.webp",
+      "/art/4284.webp",
+      "/art/4285.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -641,6 +821,11 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/4290.webp",
+    "variants": [
+      "/art/4291.webp",
+      "/art/4292.webp",
+      "/art/4293.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -654,6 +839,15 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4310.webp",
+    "variants": [
+      "/art/4311.webp",
+      "/art/4312.webp",
+      "/art/4313.webp",
+      "/art/4314.webp",
+      "/art/4315.webp",
+      "/art/4316.webp",
+      "/art/4317.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -666,6 +860,14 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4320.webp",
+    "variants": [
+      "/art/4321.webp",
+      "/art/4322.webp",
+      "/art/4323.webp",
+      "/art/4324.webp",
+      "/art/4325.webp",
+      "/art/4326.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -678,6 +880,12 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/4330.webp",
+    "variants": [
+      "/art/4331.webp",
+      "/art/4332.webp",
+      "/art/4333.webp",
+      "/art/4334.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -691,6 +899,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4340.webp",
+    "variants": [
+      "/art/4341.webp",
+      "/art/4342.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -704,6 +916,11 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4350.webp",
+    "variants": [
+      "/art/4351.webp",
+      "/art/4352.webp",
+      "/art/4353.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -717,6 +934,15 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4360.webp",
+    "variants": [
+      "/art/4361.webp",
+      "/art/4362.webp",
+      "/art/4363.webp",
+      "/art/4364.webp",
+      "/art/4365.webp",
+      "/art/4366.webp",
+      "/art/4367.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -730,6 +956,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4370.webp",
+    "variants": [
+      "/art/4371.webp",
+      "/art/4372.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -743,6 +973,11 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4390.webp",
+    "variants": [
+      "/art/4391.webp",
+      "/art/4392.webp",
+      "/art/4393.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -756,6 +991,10 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/4400.webp",
+    "variants": [
+      "/art/4401.webp",
+      "/art/4402.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -769,6 +1008,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/4410.webp",
+    "variants": [
+      "/art/4411.webp",
+      "/art/4412.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -782,6 +1025,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/4430.webp",
+    "variants": [
+      "/art/4431.webp",
+      "/art/4432.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -795,6 +1042,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4440.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -807,6 +1055,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4450.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -819,6 +1068,7 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/4460.webp",
+    "variants": [],
     "nutrition": {
       "added_sugars": 5810
     }
@@ -834,6 +1084,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4600.webp",
+    "variants": [
+      "/art/4601.webp",
+      "/art/4602.webp",
+      "/art/4603.webp",
+      "/art/4604.webp",
+      "/art/4605.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -847,6 +1104,15 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4610.webp",
+    "variants": [
+      "/art/4611.webp",
+      "/art/4612.webp",
+      "/art/4613.webp",
+      "/art/4614.webp",
+      "/art/4615.webp",
+      "/art/4616.webp",
+      "/art/4617.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -859,6 +1125,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4620.webp",
+    "variants": [
+      "/art/4621.webp",
+      "/art/4622.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -872,6 +1142,7 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4630.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -884,6 +1155,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4640.webp",
+    "variants": [
+      "/art/4641.webp",
+      "/art/4642.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -896,6 +1171,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4650.webp",
+    "variants": [
+      "/art/4651.webp",
+      "/art/4652.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -909,6 +1188,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4660.webp",
+    "variants": [
+      "/art/4661.webp",
+      "/art/4662.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -922,6 +1205,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4670.webp",
+    "variants": [
+      "/art/4671.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -935,6 +1221,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4680.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -947,6 +1234,10 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/4890.webp",
+    "variants": [
+      "/art/4891.webp",
+      "/art/4892.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -960,6 +1251,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/4900.webp",
+    "variants": [
+      "/art/4901.webp",
+      "/art/4902.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -973,6 +1268,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4910.webp",
+    "variants": [
+      "/art/4911.webp",
+      "/art/4912.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -985,6 +1284,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4920.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -997,6 +1297,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/4930.webp",
+    "variants": [
+      "/art/4931.webp",
+      "/art/4932.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1010,6 +1314,10 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/4940.webp",
+    "variants": [
+      "/art/4941.webp",
+      "/art/4942.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1022,6 +1330,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4950.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1034,6 +1343,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4960.webp",
+    "variants": [
+      "/art/4961.webp",
+      "/art/4962.webp",
+      "/art/4963.webp",
+      "/art/4964.webp",
+      "/art/4965.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1047,6 +1363,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/4970.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1059,6 +1376,11 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4980.webp",
+    "variants": [
+      "/art/4981.webp",
+      "/art/4982.webp",
+      "/art/4983.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1071,6 +1393,11 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/4990.webp",
+    "variants": [
+      "/art/4991.webp",
+      "/art/4992.webp",
+      "/art/4993.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1083,6 +1410,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5000.webp",
+    "variants": [
+      "/art/5001.webp",
+      "/art/5002.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1096,6 +1427,9 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5010.webp",
+    "variants": [
+      "/art/5011.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1108,6 +1442,13 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5020.webp",
+    "variants": [
+      "/art/5021.webp",
+      "/art/5022.webp",
+      "/art/5023.webp",
+      "/art/5024.webp",
+      "/art/5025.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1121,6 +1462,7 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/5030.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1134,6 +1476,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5040.webp",
+    "variants": [
+      "/art/5041.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1147,6 +1492,12 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5050.webp",
+    "variants": [
+      "/art/5051.webp",
+      "/art/5052.webp",
+      "/art/5053.webp",
+      "/art/5054.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1160,6 +1511,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5060.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1173,6 +1525,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5070.webp",
+    "variants": [
+      "/art/5071.webp",
+      "/art/5072.webp",
+      "/art/5073.webp",
+      "/art/5074.webp",
+      "/art/5075.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1185,6 +1544,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5080.webp",
+    "variants": [
+      "/art/5081.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1198,6 +1560,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5090.webp",
+    "variants": [
+      "/art/5091.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1211,6 +1576,17 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/5100.webp",
+    "variants": [
+      "/art/5101.webp",
+      "/art/5102.webp",
+      "/art/5103.webp",
+      "/art/5104.webp",
+      "/art/5105.webp",
+      "/art/5106.webp",
+      "/art/5107.webp",
+      "/art/5108.webp",
+      "/art/5109.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1224,6 +1600,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5110.webp",
+    "variants": [
+      "/art/5111.webp",
+      "/art/5112.webp",
+      "/art/5113.webp",
+      "/art/5114.webp",
+      "/art/5115.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1237,6 +1620,11 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5120.webp",
+    "variants": [
+      "/art/5121.webp",
+      "/art/5122.webp",
+      "/art/5123.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1250,6 +1638,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5130.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1263,6 +1652,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5140.webp",
+    "variants": [
+      "/art/5141.webp",
+      "/art/5142.webp",
+      "/art/5143.webp",
+      "/art/5144.webp",
+      "/art/5145.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1276,6 +1672,14 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/5150.webp",
+    "variants": [
+      "/art/5151.webp",
+      "/art/5152.webp",
+      "/art/5153.webp",
+      "/art/5154.webp",
+      "/art/5155.webp",
+      "/art/5156.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1290,6 +1694,12 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5160.webp",
+    "variants": [
+      "/art/5161.webp",
+      "/art/5162.webp",
+      "/art/5163.webp",
+      "/art/5164.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1303,6 +1713,10 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5170.webp",
+    "variants": [
+      "/art/5171.webp",
+      "/art/5172.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1316,6 +1730,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5180.webp",
+    "variants": [
+      "/art/5181.webp",
+      "/art/5182.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1329,6 +1747,9 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/5190.webp",
+    "variants": [
+      "/art/5191.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1342,6 +1763,14 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5200.webp",
+    "variants": [
+      "/art/5201.webp",
+      "/art/5203.webp",
+      "/art/5204.webp",
+      "/art/5205.webp",
+      "/art/5206.webp",
+      "/art/5207.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1355,6 +1784,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/5210.webp",
+    "variants": [
+      "/art/5211.webp",
+      "/art/5212.webp",
+      "/art/5213.webp",
+      "/art/5214.webp",
+      "/art/5215.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1368,6 +1804,9 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/5220.webp",
+    "variants": [
+      "/art/5221.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1380,6 +1819,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5230.webp",
+    "variants": [
+      "/art/5231.webp",
+      "/art/5232.webp",
+      "/art/5233.webp",
+      "/art/5234.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1393,6 +1838,10 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5240.webp",
+    "variants": [
+      "/art/5241.webp",
+      "/art/5242.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1406,6 +1855,11 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5250.webp",
+    "variants": [
+      "/art/5251.webp",
+      "/art/5252.webp",
+      "/art/5253.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1418,6 +1872,9 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5260.webp",
+    "variants": [
+      "/art/5261.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1430,6 +1887,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5280.webp",
+    "variants": [
+      "/art/5281.webp",
+      "/art/5282.webp",
+      "/art/5283.webp",
+      "/art/5284.webp",
+      "/art/5285.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1443,6 +1907,12 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5290.webp",
+    "variants": [
+      "/art/5291.webp",
+      "/art/5292.webp",
+      "/art/5293.webp",
+      "/art/5294.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1456,6 +1926,7 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5400.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1469,6 +1940,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5410.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1482,6 +1954,7 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5420.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1495,6 +1968,9 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/5440.webp",
+    "variants": [
+      "/art/5441.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1508,6 +1984,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5450.webp",
+    "variants": [
+      "/art/5451.webp",
+      "/art/5452.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1520,6 +2000,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5470.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1532,6 +2013,9 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5480.webp",
+    "variants": [
+      "/art/5481.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1545,6 +2029,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5500.webp",
+    "variants": [
+      "/art/5501.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1558,6 +2045,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5510.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1571,6 +2059,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5520.webp",
+    "variants": [
+      "/art/5521.webp",
+      "/art/5522.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1583,6 +2075,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5600.webp",
+    "variants": [
+      "/art/5601.webp",
+      "/art/5602.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1596,6 +2092,12 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/5610.webp",
+    "variants": [
+      "/art/5611.webp",
+      "/art/5612.webp",
+      "/art/5613.webp",
+      "/art/5614.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1609,6 +2111,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5620.webp",
+    "variants": [
+      "/art/5621.webp",
+      "/art/5622.webp",
+      "/art/5623.webp",
+      "/art/5624.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1622,6 +2130,9 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5640.webp",
+    "variants": [
+      "/art/5641.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1635,6 +2146,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5650.webp",
+    "variants": [
+      "/art/5651.webp",
+      "/art/5652.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1649,6 +2164,7 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5660.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1662,6 +2178,11 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5670.webp",
+    "variants": [
+      "/art/5671.webp",
+      "/art/5672.webp",
+      "/art/5673.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1675,6 +2196,12 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5680.webp",
+    "variants": [
+      "/art/5681.webp",
+      "/art/5682.webp",
+      "/art/5683.webp",
+      "/art/5684.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1688,6 +2215,9 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5690.webp",
+    "variants": [
+      "/art/5691.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1700,6 +2230,13 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/5700.webp",
+    "variants": [
+      "/art/5701.webp",
+      "/art/5702.webp",
+      "/art/5703.webp",
+      "/art/5704.webp",
+      "/art/5705.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1713,6 +2250,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5710.webp",
+    "variants": [
+      "/art/5711.webp",
+      "/art/5712.webp",
+      "/art/5713.webp",
+      "/art/5714.webp",
+      "/art/5715.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1726,6 +2270,9 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/5720.webp",
+    "variants": [
+      "/art/5722.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1739,6 +2286,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5730.webp",
+    "variants": [
+      "/art/5731.webp",
+      "/art/5732.webp",
+      "/art/5733.webp",
+      "/art/5734.webp",
+      "/art/5735.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1752,6 +2306,9 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/5740.webp",
+    "variants": [
+      "/art/5741.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1765,6 +2322,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/5750.webp",
+    "variants": [
+      "/art/5751.webp",
+      "/art/5752.webp",
+      "/art/5753.webp",
+      "/art/5754.webp",
+      "/art/5755.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1778,6 +2342,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5760.webp",
+    "variants": [
+      "/art/5761.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1791,6 +2358,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5770.webp",
+    "variants": [
+      "/art/5771.webp",
+      "/art/5772.webp",
+      "/art/5773.webp",
+      "/art/5774.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1804,6 +2377,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5780.webp",
+    "variants": [
+      "/art/5781.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1817,6 +2393,14 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/5790.webp",
+    "variants": [
+      "/art/5791.webp",
+      "/art/5792.webp",
+      "/art/5793.webp",
+      "/art/5794.webp",
+      "/art/5795.webp",
+      "/art/5796.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1830,6 +2414,15 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5820.webp",
+    "variants": [
+      "/art/5821.webp",
+      "/art/5822.webp",
+      "/art/5823.webp",
+      "/art/5824.webp",
+      "/art/5825.webp",
+      "/art/5826.webp",
+      "/art/5827.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1843,6 +2436,15 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5830.webp",
+    "variants": [
+      "/art/5831.webp",
+      "/art/5832.webp",
+      "/art/5833.webp",
+      "/art/5834.webp",
+      "/art/5835.webp",
+      "/art/5836.webp",
+      "/art/5837.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1856,6 +2458,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5840.webp",
+    "variants": [
+      "/art/5841.webp",
+      "/art/5842.webp",
+      "/art/5843.webp",
+      "/art/5844.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1869,6 +2477,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5850.webp",
+    "variants": [
+      "/art/5851.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1882,6 +2493,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/5860.webp",
+    "variants": [
+      "/art/5861.webp",
+      "/art/5862.webp",
+      "/art/5863.webp",
+      "/art/5864.webp",
+      "/art/5865.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1895,6 +2513,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5870.webp",
+    "variants": [
+      "/art/5871.webp",
+      "/art/5872.webp",
+      "/art/5873.webp",
+      "/art/5874.webp",
+      "/art/5875.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1908,6 +2533,10 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5880.webp",
+    "variants": [
+      "/art/5881.webp",
+      "/art/5882.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1920,6 +2549,10 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5890.webp",
+    "variants": [
+      "/art/5891.webp",
+      "/art/5892.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1932,6 +2565,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/5900.webp",
+    "variants": [
+      "/art/5901.webp",
+      "/art/5902.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1944,6 +2581,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/5910.webp",
+    "variants": [
+      "/art/5911.webp",
+      "/art/5912.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1956,6 +2597,13 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/5920.webp",
+    "variants": [
+      "/art/5921.webp",
+      "/art/5922.webp",
+      "/art/5923.webp",
+      "/art/5924.webp",
+      "/art/5925.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1968,6 +2616,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5930.webp",
+    "variants": [
+      "/art/5931.webp",
+      "/art/5932.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -1980,6 +2632,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/5940.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -1993,6 +2646,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/6000.webp",
+    "variants": [
+      "/art/6001.webp",
+      "/art/6002.webp",
+      "/art/6003.webp",
+      "/art/6004.webp",
+      "/art/6005.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2006,6 +2666,9 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/6010.webp",
+    "variants": [
+      "/art/6011.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2019,6 +2682,9 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6020.webp",
+    "variants": [
+      "/art/6021.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2032,6 +2698,9 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6030.webp",
+    "variants": [
+      "/art/6031.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2045,6 +2714,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6040.webp",
+    "variants": [
+      "/art/6041.webp",
+      "/art/6042.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2058,6 +2731,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6050.webp",
+    "variants": [
+      "/art/6051.webp",
+      "/art/6052.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2071,6 +2748,12 @@
     "rarity": "grail",
     "probability": 0.02,
     "image": "/art/6060.webp",
+    "variants": [
+      "/art/6061.webp",
+      "/art/6062.webp",
+      "/art/6063.webp",
+      "/art/6064.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2084,6 +2767,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6070.webp",
+    "variants": [
+      "/art/6071.webp",
+      "/art/6072.webp",
+      "/art/6073.webp",
+      "/art/6074.webp",
+      "/art/6075.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2097,6 +2787,7 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6080.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2110,6 +2801,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6090.webp",
+    "variants": [
+      "/art/6091.webp",
+      "/art/6092.webp",
+      "/art/6093.webp",
+      "/art/6094.webp",
+      "/art/6095.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2123,6 +2821,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6100.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2136,6 +2835,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6110.webp",
+    "variants": [
+      "/art/6111.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2148,6 +2850,10 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6120.webp",
+    "variants": [
+      "/art/6121.webp",
+      "/art/6122.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2161,6 +2867,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6130.webp",
+    "variants": [
+      "/art/6131.webp",
+      "/art/6132.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2174,6 +2884,17 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6140.webp",
+    "variants": [
+      "/art/6141.webp",
+      "/art/6142.webp",
+      "/art/6143.webp",
+      "/art/6144.webp",
+      "/art/6145.webp",
+      "/art/6146.webp",
+      "/art/6147.webp",
+      "/art/6148.webp",
+      "/art/6149.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2188,6 +2909,17 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6150.webp",
+    "variants": [
+      "/art/6151.webp",
+      "/art/6152.webp",
+      "/art/6153.webp",
+      "/art/6154.webp",
+      "/art/6155.webp",
+      "/art/6156.webp",
+      "/art/6157.webp",
+      "/art/6158.webp",
+      "/art/6159.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2201,6 +2933,7 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6160.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2214,6 +2947,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6170.webp",
+    "variants": [
+      "/art/6171.webp",
+      "/art/6172.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2226,6 +2963,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/6190.webp",
+    "variants": [
+      "/art/6191.webp",
+      "/art/6192.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2239,6 +2980,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6200.webp",
+    "variants": [
+      "/art/6201.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2252,6 +2996,9 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/6210.webp",
+    "variants": [
+      "/art/6211.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2265,6 +3012,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6220.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2278,6 +3026,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6230.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2291,6 +3040,14 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6240.webp",
+    "variants": [
+      "/art/6241.webp",
+      "/art/6242.webp",
+      "/art/6243.webp",
+      "/art/6244.webp",
+      "/art/6245.webp",
+      "/art/6246.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2304,6 +3061,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6250.webp",
+    "variants": [
+      "/art/6251.webp",
+      "/art/6252.webp",
+      "/art/6253.webp",
+      "/art/6254.webp",
+      "/art/6255.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2317,6 +3081,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/6260.webp",
+    "variants": [
+      "/art/6261.webp",
+      "/art/6262.webp",
+      "/art/6263.webp",
+      "/art/6264.webp",
+      "/art/6265.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2330,6 +3101,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/6270.webp",
+    "variants": [
+      "/art/6271.webp",
+      "/art/6272.webp",
+      "/art/6273.webp",
+      "/art/6274.webp",
+      "/art/6275.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2343,6 +3121,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6280.webp",
+    "variants": [
+      "/art/6281.webp",
+      "/art/6282.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2355,6 +3137,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6290.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2368,6 +3151,9 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6300.webp",
+    "variants": [
+      "/art/6301.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2381,6 +3167,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6310.webp",
+    "variants": [
+      "/art/6311.webp",
+      "/art/6312.webp",
+      "/art/6313.webp",
+      "/art/6314.webp",
+      "/art/6315.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2394,6 +3187,10 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/6320.webp",
+    "variants": [
+      "/art/6321.webp",
+      "/art/6322.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2406,6 +3203,9 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6330.webp",
+    "variants": [
+      "/art/6331.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2418,6 +3218,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6340.webp",
+    "variants": [
+      "/art/6341.webp",
+      "/art/6342.webp",
+      "/art/6343.webp",
+      "/art/6344.webp",
+      "/art/6345.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2431,6 +3238,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6350.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2443,6 +3251,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/6360.webp",
+    "variants": [
+      "/art/6361.webp",
+      "/art/6362.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2456,6 +3268,11 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/6370.webp",
+    "variants": [
+      "/art/6371.webp",
+      "/art/6372.webp",
+      "/art/6373.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2468,6 +3285,7 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6400.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2481,6 +3299,11 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6410.webp",
+    "variants": [
+      "/art/6411.webp",
+      "/art/6412.webp",
+      "/art/6413.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2495,6 +3318,9 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6420.webp",
+    "variants": [
+      "/art/6421.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2508,6 +3334,10 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6430.webp",
+    "variants": [
+      "/art/6431.webp",
+      "/art/6432.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2520,6 +3350,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6440.webp",
+    "variants": [
+      "/art/6441.webp",
+      "/art/6442.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2533,6 +3367,7 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6460.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2545,6 +3380,7 @@
     "rarity": "grail",
     "probability": 0.02,
     "image": "/art/6470.webp",
+    "variants": [],
     "nutrition": {
       "added_sugars": 5280
     }
@@ -2560,6 +3396,12 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6480.webp",
+    "variants": [
+      "/art/6481.webp",
+      "/art/6482.webp",
+      "/art/6483.webp",
+      "/art/6484.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2573,6 +3415,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6490.webp",
+    "variants": [
+      "/art/6491.webp",
+      "/art/6492.webp",
+      "/art/6493.webp",
+      "/art/6494.webp",
+      "/art/6495.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2584,6 +3433,7 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6500.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2596,6 +3446,9 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6510.webp",
+    "variants": [
+      "/art/6511.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2608,6 +3461,9 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6520.webp",
+    "variants": [
+      "/art/6521.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2620,6 +3476,10 @@
     "rarity": "grail",
     "probability": 0.02,
     "image": "/art/6530.webp",
+    "variants": [
+      "/art/6531.webp",
+      "/art/6532.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2633,6 +3493,11 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6540.webp",
+    "variants": [
+      "/art/6541.webp",
+      "/art/6542.webp",
+      "/art/6543.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2645,6 +3510,7 @@
     "rarity": "grail",
     "probability": 0.02,
     "image": "/art/6560.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2658,6 +3524,12 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6570.webp",
+    "variants": [
+      "/art/6571.webp",
+      "/art/6572.webp",
+      "/art/6573.webp",
+      "/art/6574.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2671,6 +3543,12 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6580.webp",
+    "variants": [
+      "/art/6581.webp",
+      "/art/6582.webp",
+      "/art/6583.webp",
+      "/art/6584.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2684,6 +3562,7 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6590.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2697,6 +3576,11 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6600.webp",
+    "variants": [
+      "/art/6601.webp",
+      "/art/6602.webp",
+      "/art/6603.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2709,6 +3593,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6610.webp",
+    "variants": [
+      "/art/6611.webp",
+      "/art/6612.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2722,6 +3610,15 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6620.webp",
+    "variants": [
+      "/art/6621.webp",
+      "/art/6622.webp",
+      "/art/6623.webp",
+      "/art/6624.webp",
+      "/art/6625.webp",
+      "/art/6626.webp",
+      "/art/6627.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2735,6 +3632,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6630.webp",
+    "variants": [
+      "/art/6631.webp",
+      "/art/6632.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2748,6 +3649,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6640.webp",
+    "variants": [
+      "/art/6641.webp",
+      "/art/6642.webp",
+      "/art/6643.webp",
+      "/art/6644.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2761,6 +3668,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6660.webp",
+    "variants": [
+      "/art/6661.webp",
+      "/art/6662.webp",
+      "/art/6663.webp",
+      "/art/6664.webp",
+      "/art/6665.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2774,6 +3688,13 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6670.webp",
+    "variants": [
+      "/art/6671.webp",
+      "/art/6672.webp",
+      "/art/6673.webp",
+      "/art/6674.webp",
+      "/art/6675.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2786,6 +3707,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6680.webp",
+    "variants": [
+      "/art/6681.webp",
+      "/art/6682.webp",
+      "/art/6683.webp",
+      "/art/6684.webp",
+      "/art/6685.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2799,6 +3727,17 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6690.webp",
+    "variants": [
+      "/art/6691.webp",
+      "/art/6692.webp",
+      "/art/6693.webp",
+      "/art/6694.webp",
+      "/art/6695.webp",
+      "/art/6696.webp",
+      "/art/6697.webp",
+      "/art/6698.webp",
+      "/art/6699.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2811,6 +3750,7 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6700.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2824,6 +3764,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6710.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2837,6 +3778,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6720.webp",
+    "variants": [
+      "/art/6721.webp",
+      "/art/6722.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2850,6 +3795,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6730.webp",
+    "variants": [
+      "/art/6731.webp",
+      "/art/6732.webp",
+      "/art/6733.webp",
+      "/art/6734.webp",
+      "/art/6735.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2863,6 +3815,11 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6740.webp",
+    "variants": [
+      "/art/6741.webp",
+      "/art/6742.webp",
+      "/art/6743.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2876,6 +3833,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6750.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2888,6 +3846,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6760.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -2901,6 +3860,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6770.webp",
+    "variants": [
+      "/art/6771.webp",
+      "/art/6772.webp",
+      "/art/6773.webp",
+      "/art/6774.webp",
+      "/art/6775.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2914,6 +3880,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6780.webp",
+    "variants": [
+      "/art/6781.webp",
+      "/art/6782.webp",
+      "/art/6783.webp",
+      "/art/6784.webp",
+      "/art/6785.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2926,6 +3899,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6790.webp",
+    "variants": [
+      "/art/6791.webp",
+      "/art/6792.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2939,6 +3916,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6810.webp",
+    "variants": [
+      "/art/6811.webp",
+      "/art/6812.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2952,6 +3933,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6820.webp",
+    "variants": [
+      "/art/6821.webp",
+      "/art/6822.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2965,6 +3950,10 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6830.webp",
+    "variants": [
+      "/art/6831.webp",
+      "/art/6832.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2978,6 +3967,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6840.webp",
+    "variants": [
+      "/art/6841.webp",
+      "/art/6842.webp",
+      "/art/6843.webp",
+      "/art/6844.webp",
+      "/art/6845.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -2991,6 +3987,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/6850.webp",
+    "variants": [
+      "/art/6851.webp",
+      "/art/6852.webp",
+      "/art/6853.webp",
+      "/art/6854.webp",
+      "/art/6855.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3004,6 +4007,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/6860.webp",
+    "variants": [
+      "/art/6861.webp",
+      "/art/6862.webp",
+      "/art/6863.webp",
+      "/art/6864.webp",
+      "/art/6865.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3017,6 +4027,12 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6900.webp",
+    "variants": [
+      "/art/6901.webp",
+      "/art/6902.webp",
+      "/art/6903.webp",
+      "/art/6904.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3030,6 +4046,10 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/6910.webp",
+    "variants": [
+      "/art/6911.webp",
+      "/art/6912.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3043,6 +4063,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7000.webp",
+    "variants": [
+      "/art/7001.webp",
+      "/art/7002.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3056,6 +4080,13 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/7010.webp",
+    "variants": [
+      "/art/7011.webp",
+      "/art/7012.webp",
+      "/art/7013.webp",
+      "/art/7014.webp",
+      "/art/7015.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3069,6 +4100,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7020.webp",
+    "variants": [
+      "/art/7021.webp",
+      "/art/7022.webp",
+      "/art/7023.webp",
+      "/art/7024.webp",
+      "/art/7025.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3081,6 +4119,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7030.webp",
+    "variants": [
+      "/art/7031.webp",
+      "/art/7032.webp",
+      "/art/7033.webp",
+      "/art/7034.webp",
+      "/art/7035.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3094,6 +4139,15 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7040.webp",
+    "variants": [
+      "/art/7041.webp",
+      "/art/7042.webp",
+      "/art/7043.webp",
+      "/art/7044.webp",
+      "/art/7045.webp",
+      "/art/7046.webp",
+      "/art/7047.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3107,6 +4161,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/7050.webp",
+    "variants": [
+      "/art/7051.webp",
+      "/art/7052.webp",
+      "/art/7053.webp",
+      "/art/7054.webp",
+      "/art/7055.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3120,6 +4181,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7060.webp",
+    "variants": [
+      "/art/7061.webp",
+      "/art/7062.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3133,6 +4198,7 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7070.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3146,6 +4212,7 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7080.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3159,6 +4226,13 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/7100.webp",
+    "variants": [
+      "/art/7101.webp",
+      "/art/7102.webp",
+      "/art/7103.webp",
+      "/art/7104.webp",
+      "/art/7105.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3172,6 +4246,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7110.webp",
+    "variants": [
+      "/art/7111.webp",
+      "/art/7112.webp",
+      "/art/7113.webp",
+      "/art/7114.webp",
+      "/art/7115.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3185,6 +4266,11 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7120.webp",
+    "variants": [
+      "/art/7121.webp",
+      "/art/7122.webp",
+      "/art/7123.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3198,6 +4284,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7130.webp",
+    "variants": [
+      "/art/7131.webp",
+      "/art/7132.webp",
+      "/art/7133.webp",
+      "/art/7134.webp",
+      "/art/7135.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3211,6 +4304,13 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/7140.webp",
+    "variants": [
+      "/art/7141.webp",
+      "/art/7142.webp",
+      "/art/7143.webp",
+      "/art/7144.webp",
+      "/art/7145.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3224,6 +4324,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7150.webp",
+    "variants": [
+      "/art/7151.webp",
+      "/art/7152.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3237,6 +4341,13 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/7160.webp",
+    "variants": [
+      "/art/7161.webp",
+      "/art/7162.webp",
+      "/art/7163.webp",
+      "/art/7164.webp",
+      "/art/7165.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3249,6 +4360,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7170.webp",
+    "variants": [
+      "/art/7171.webp",
+      "/art/7172.webp",
+      "/art/7173.webp",
+      "/art/7174.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3262,6 +4379,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7180.webp",
+    "variants": [
+      "/art/7181.webp",
+      "/art/7182.webp",
+      "/art/7183.webp",
+      "/art/7184.webp",
+      "/art/7185.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3275,6 +4399,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7190.webp",
+    "variants": [
+      "/art/7191.webp",
+      "/art/7192.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3287,6 +4415,13 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/7200.webp",
+    "variants": [
+      "/art/7201.webp",
+      "/art/7202.webp",
+      "/art/7203.webp",
+      "/art/7204.webp",
+      "/art/7205.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3300,6 +4435,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7210.webp",
+    "variants": [
+      "/art/7211.webp",
+      "/art/7212.webp",
+      "/art/7213.webp",
+      "/art/7214.webp",
+      "/art/7215.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3313,6 +4455,10 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/7220.webp",
+    "variants": [
+      "/art/7221.webp",
+      "/art/7222.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3326,6 +4472,10 @@
     "rarity": "grail",
     "probability": 0.02,
     "image": "/art/7230.webp",
+    "variants": [
+      "/art/7231.webp",
+      "/art/7232.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3338,6 +4488,7 @@
     "rarity": "grail",
     "probability": 0.02,
     "image": "/art/7240.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3351,6 +4502,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7250.webp",
+    "variants": [
+      "/art/7251.webp",
+      "/art/7252.webp",
+      "/art/7253.webp",
+      "/art/7254.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3363,6 +4520,11 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7260.webp",
+    "variants": [
+      "/art/7261.webp",
+      "/art/7262.webp",
+      "/art/7263.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3375,6 +4537,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7270.webp",
+    "variants": [
+      "/art/7271.webp",
+      "/art/7272.webp",
+      "/art/7273.webp",
+      "/art/7274.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3388,6 +4556,7 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7280.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3400,6 +4569,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7290.webp",
+    "variants": [
+      "/art/7291.webp",
+      "/art/7292.webp",
+      "/art/7293.webp",
+      "/art/7294.webp",
+      "/art/7295.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3412,6 +4588,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7300.webp",
+    "variants": [
+      "/art/7301.webp",
+      "/art/7302.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3425,6 +4605,11 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7310.webp",
+    "variants": [
+      "/art/7311.webp",
+      "/art/7312.webp",
+      "/art/7313.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3438,6 +4623,9 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/7320.webp",
+    "variants": [
+      "/art/7321.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3451,6 +4639,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7340.webp",
+    "variants": [
+      "/art/7341.webp",
+      "/art/7342.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3464,6 +4656,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7350.webp",
+    "variants": [
+      "/art/7351.webp",
+      "/art/7352.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3477,6 +4673,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/7360.webp",
+    "variants": [
+      "/art/7361.webp",
+      "/art/7362.webp",
+      "/art/7363.webp",
+      "/art/7364.webp",
+      "/art/7365.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3490,6 +4693,15 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7370.webp",
+    "variants": [
+      "/art/7371.webp",
+      "/art/7372.webp",
+      "/art/7373.webp",
+      "/art/7374.webp",
+      "/art/7375.webp",
+      "/art/7376.webp",
+      "/art/7377.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3503,6 +4715,13 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7380.webp",
+    "variants": [
+      "/art/7381.webp",
+      "/art/7382.webp",
+      "/art/7383.webp",
+      "/art/7384.webp",
+      "/art/7385.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3516,6 +4735,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7390.webp",
+    "variants": [
+      "/art/7391.webp",
+      "/art/7392.webp",
+      "/art/7393.webp",
+      "/art/7394.webp",
+      "/art/7395.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3529,6 +4755,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7400.webp",
+    "variants": [
+      "/art/7401.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3542,6 +4771,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/7410.webp",
+    "variants": [
+      "/art/7411.webp",
+      "/art/7412.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3555,6 +4788,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7420.webp",
+    "variants": [
+      "/art/7421.webp",
+      "/art/7422.webp",
+      "/art/7423.webp",
+      "/art/7424.webp",
+      "/art/7425.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3567,6 +4807,13 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/7430.webp",
+    "variants": [
+      "/art/7431.webp",
+      "/art/7432.webp",
+      "/art/7433.webp",
+      "/art/7434.webp",
+      "/art/7435.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3579,6 +4826,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7440.webp",
+    "variants": [
+      "/art/7441.webp",
+      "/art/7442.webp",
+      "/art/7443.webp",
+      "/art/7444.webp",
+      "/art/7445.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3593,6 +4847,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7460.webp",
+    "variants": [
+      "/art/7461.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3606,6 +4863,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7470.webp",
+    "variants": [
+      "/art/7471.webp",
+      "/art/7472.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3619,6 +4880,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7480.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3632,6 +4894,13 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7490.webp",
+    "variants": [
+      "/art/7491.webp",
+      "/art/7492.webp",
+      "/art/7493.webp",
+      "/art/7494.webp",
+      "/art/7495.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3644,6 +4913,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7500.webp",
+    "variants": [
+      "/art/7501.webp",
+      "/art/7502.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3656,6 +4929,9 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/7510.webp",
+    "variants": [
+      "/art/7511.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3668,6 +4944,11 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7520.webp",
+    "variants": [
+      "/art/7521.webp",
+      "/art/7522.webp",
+      "/art/7523.webp"
+    ],
     "nutrition": {
       "added_sugars": 5080
     }
@@ -3682,6 +4963,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7530.webp",
+    "variants": [
+      "/art/7531.webp",
+      "/art/7532.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3694,6 +4979,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7540.webp",
+    "variants": [
+      "/art/7541.webp",
+      "/art/7542.webp",
+      "/art/7543.webp",
+      "/art/7544.webp"
+    ],
     "nutrition": {
       "added_sugars": 3040
     }
@@ -3708,6 +4999,17 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7550.webp",
+    "variants": [
+      "/art/7551.webp",
+      "/art/7552.webp",
+      "/art/7553.webp",
+      "/art/7554.webp",
+      "/art/7555.webp",
+      "/art/7556.webp",
+      "/art/7557.webp",
+      "/art/7558.webp",
+      "/art/7559.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3720,6 +5022,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7560.webp",
+    "variants": [
+      "/art/7561.webp",
+      "/art/7562.webp"
+    ],
     "nutrition": {
       "added_sugars": 6170
     }
@@ -3734,6 +5040,11 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7570.webp",
+    "variants": [
+      "/art/7571.webp",
+      "/art/7572.webp",
+      "/art/7573.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3746,6 +5057,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7580.webp",
+    "variants": [
+      "/art/7581.webp",
+      "/art/7582.webp",
+      "/art/7583.webp",
+      "/art/7584.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3758,6 +5075,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/7590.webp",
+    "variants": [
+      "/art/7591.webp",
+      "/art/7592.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3770,6 +5091,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/7600.webp",
+    "variants": [
+      "/art/7601.webp",
+      "/art/7602.webp"
+    ],
     "nutrition": {
       "added_sugars": 5810
     }
@@ -3785,6 +5110,13 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/8160.webp",
+    "variants": [
+      "/art/8161.webp",
+      "/art/8162.webp",
+      "/art/8163.webp",
+      "/art/8164.webp",
+      "/art/8165.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3797,6 +5129,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/8170.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3809,6 +5142,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/8180.webp",
+    "variants": [
+      "/art/8181.webp",
+      "/art/8182.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3821,6 +5158,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/8190.webp",
+    "variants": [
+      "/art/8191.webp",
+      "/art/8192.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3833,6 +5174,7 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/8210.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3845,6 +5187,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/8300.webp",
+    "variants": [
+      "/art/8301.webp",
+      "/art/8302.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3858,6 +5204,10 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/8310.webp",
+    "variants": [
+      "/art/8311.webp",
+      "/art/8312.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3870,6 +5220,9 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/8320.webp",
+    "variants": [
+      "/art/8321.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3883,6 +5236,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/8330.webp",
+    "variants": [],
     "nutrition": {
       "added_sugars": 5270
     }
@@ -3898,6 +5252,14 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/8340.webp",
+    "variants": [
+      "/art/8341.webp",
+      "/art/8342.webp",
+      "/art/8343.webp",
+      "/art/8344.webp",
+      "/art/8345.webp",
+      "/art/8346.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3912,6 +5274,12 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/8350.webp",
+    "variants": [
+      "/art/8351.webp",
+      "/art/8352.webp",
+      "/art/8353.webp",
+      "/art/8354.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3924,6 +5292,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/8540.webp",
+    "variants": [
+      "/art/8541.webp",
+      "/art/8542.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3937,6 +5309,7 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/8550.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3950,6 +5323,7 @@
     "rarity": "common",
     "probability": 1.68,
     "image": "/art/8570.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3963,6 +5337,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/8580.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3975,6 +5350,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/8590.webp",
+    "variants": [
+      "/art/8591.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -3988,19 +5366,9 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/9100.webp",
-    "nutrition": {}
-  },
-  {
-    "sku": 9110,
-    "class": "Drizzle",
-    "name": "Pesto Swirl",
-    "description": "Mades with only the freshest basil and pine nuts from the island of Scily. It’s the besto pesto in the east or westo! - DS",
-    "artist": "Didi Mx",
-    "artistTwitter": "wwwdidimx",
-    "artistDiscord": "DIDIMX#8781",
-    "rarity": "uncommon",
-    "probability": 0.59,
-    "image": "/art/9110.webp",
+    "variants": [
+      "/art/9101.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -4014,6 +5382,7 @@
     "rarity": "epic",
     "probability": 0.04,
     "image": "/art/9120.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -4027,6 +5396,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/9130.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -4039,17 +5409,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/9140.webp",
-    "nutrition": {}
-  },
-  {
-    "sku": 9160,
-    "class": "Drizzle",
-    "name": "BBQ Sauce",
-    "description": "",
-    "artist": "Unknown",
-    "rarity": "uncommon",
-    "probability": 0.59,
-    "image": "/art/9160.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -4064,19 +5424,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/9170.webp",
-    "nutrition": {}
-  },
-  {
-    "sku": 9170,
-    "class": "Fruit",
-    "name": "Apple Sauce",
-    "description": "",
-    "artist": "Llama",
-    "artistDiscord": "Redavenger6#8146",
-    "artistIG": "https://www.instagram.com/swans_paintings_/",
-    "rarity": "rare",
-    "probability": 0.21,
-    "image": "/art/9170.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -4089,6 +5437,7 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/9190.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -4102,6 +5451,11 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/9200.webp",
+    "variants": [
+      "/art/9201.webp",
+      "/art/9202.webp",
+      "/art/9203.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -4114,6 +5468,10 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/9210.webp",
+    "variants": [
+      "/art/9211.webp",
+      "/art/9212.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -4127,6 +5485,7 @@
     "rarity": "rare",
     "probability": 0.21,
     "image": "/art/9220.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -4140,6 +5499,7 @@
     "rarity": "superrare",
     "probability": 0.08,
     "image": "/art/9480.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -4152,6 +5512,9 @@
     "rarity": "grail",
     "probability": 0.02,
     "image": "/art/9490.webp",
+    "variants": [
+      "/art/9491.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -4165,6 +5528,11 @@
     "rarity": "grail",
     "probability": 0.02,
     "image": "/art/9900.webp",
+    "variants": [
+      "/art/9901.webp",
+      "/art/9902.webp",
+      "/art/9903.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -4178,6 +5546,10 @@
     "rarity": "uncommon",
     "probability": 0.59,
     "image": "/art/9910.webp",
+    "variants": [
+      "/art/9911.webp",
+      "/art/9912.webp"
+    ],
     "nutrition": {}
   },
   {
@@ -4189,6 +5561,7 @@
     "rarity": "grail",
     "probability": 0.02,
     "image": "/art/9920.webp",
+    "variants": [],
     "nutrition": {}
   }
 ]

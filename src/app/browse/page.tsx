@@ -38,7 +38,7 @@ function BrowseContent() {
   return (
     <>
       <FilterBar showClassFilter />
-      <p className="mb-4 text-sm text-[#a1a1aa]">
+      <p className="mb-4 text-sm text-[#d4c5a9]">
         Showing {filtered.length} of {allToppings.length} toppings
       </p>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -57,7 +57,7 @@ export default function BrowsePage() {
         <h1 className="mb-2 text-3xl font-bold text-white">
           Browse All Toppings
         </h1>
-        <p className="text-[#a1a1aa]">
+        <p className="text-[#d4c5a9]">
           Explore the entire collection. Filter by class, rarity, or search by
           name.
         </p>

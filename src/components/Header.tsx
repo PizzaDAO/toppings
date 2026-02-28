@@ -36,7 +36,7 @@ function SpreadsheetIcon() {
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/5 bg-[#0a0a0a]/80 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-[#5c4033]/50 bg-[#2a1f14]/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <div className="flex items-center gap-6">
           <Link
@@ -48,13 +48,13 @@ export default function Header() {
           <nav className="hidden items-center gap-4 sm:flex">
             <Link
               href="/"
-              className="text-sm text-[#a1a1aa] transition-colors hover:text-white"
+              className="text-sm text-[#d4c5a9] transition-colors hover:text-white"
             >
               Home
             </Link>
             <Link
               href="/browse"
-              className="text-sm text-[#a1a1aa] transition-colors hover:text-white"
+              className="text-sm text-[#d4c5a9] transition-colors hover:text-white"
             >
               Browse All
             </Link>
@@ -62,7 +62,7 @@ export default function Header() {
               href={SPREADSHEET_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 text-sm text-[#a1a1aa] transition-colors hover:text-white"
+              className="flex items-center gap-1 text-sm text-[#d4c5a9] transition-colors hover:text-white"
               title="View Spreadsheet"
             >
               <SpreadsheetIcon />

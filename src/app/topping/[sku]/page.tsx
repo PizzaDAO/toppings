@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import { getAllToppings, getToppingBySku, slugify } from "@/lib/toppings";
 import RarityBadge from "@/components/RarityBadge";
 import NutritionLabel from "@/components/NutritionLabel";
@@ -57,7 +56,7 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
 
   return (
     <div>
-      <nav className="mb-6 text-sm text-[#a1a1aa]">
+      <nav className="mb-6 text-sm text-[#d4c5a9]">
         <Link href="/" className="transition-colors hover:text-[#F97316]">
           Home
         </Link>
@@ -75,7 +74,12 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
       <div className="grid gap-8 lg:grid-cols-2">
         {/* Image */}
         <div className="flex justify-center">
-          <ToppingImage image={topping.image} name={topping.name} />
+          <ToppingImage
+            image={topping.image}
+            name={topping.name}
+            variants={topping.variants}
+            altArt={topping.altArt}
+          />
         </div>
 
         {/* Details */}
@@ -87,7 +91,7 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
             <div className="mb-3 flex items-center gap-3">
               <RarityBadge rarity={topping.rarity} />
               {topping.probability > 0 && (
-                <span className="text-sm text-[#a1a1aa]">
+                <span className="text-sm text-[#d4c5a9]">
                   {topping.probability}% probability
                 </span>
               )}
@@ -96,7 +100,7 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
 
           {topping.description && (
             <div>
-              <h2 className="mb-1 text-sm font-semibold uppercase tracking-wider text-[#a1a1aa]">
+              <h2 className="mb-1 text-sm font-semibold uppercase tracking-wider text-[#d4c5a9]">
                 Description
               </h2>
               <p className="text-white">{topping.description}</p>
@@ -105,7 +109,7 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
 
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <h2 className="mb-1 text-sm font-semibold uppercase tracking-wider text-[#a1a1aa]">
+              <h2 className="mb-1 text-sm font-semibold uppercase tracking-wider text-[#d4c5a9]">
                 Class
               </h2>
               <Link
@@ -116,7 +120,7 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
               </Link>
             </div>
             <div>
-              <h2 className="mb-1 text-sm font-semibold uppercase tracking-wider text-[#a1a1aa]">
+              <h2 className="mb-1 text-sm font-semibold uppercase tracking-wider text-[#d4c5a9]">
                 SKU
               </h2>
               <p className="text-white">{topping.sku}</p>
@@ -124,8 +128,8 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
           </div>
 
           {/* Artist Section */}
-          <div className="rounded-xl bg-[#141414] p-4">
-            <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#a1a1aa]">
+          <div className="rounded-xl bg-[#3d2b1f] p-4">
+            <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#d4c5a9]">
               Artist
             </h2>
             <p className="mb-2 text-lg font-medium text-white">
@@ -137,7 +141,7 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
                   href={twitterUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 rounded-lg bg-white/5 px-3 py-1.5 text-sm text-[#a1a1aa] transition-colors hover:bg-white/10 hover:text-white"
+                  className="inline-flex items-center gap-1 rounded-lg bg-[#2a1f14] px-3 py-1.5 text-sm text-[#d4c5a9] transition-colors hover:bg-[#5c4033] hover:text-white"
                 >
                   <svg
                     width="14"
@@ -151,7 +155,7 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
                 </a>
               )}
               {topping.artistDiscord && (
-                <span className="inline-flex items-center gap-1 rounded-lg bg-white/5 px-3 py-1.5 text-sm text-[#a1a1aa]">
+                <span className="inline-flex items-center gap-1 rounded-lg bg-[#2a1f14] px-3 py-1.5 text-sm text-[#d4c5a9]">
                   <svg
                     width="14"
                     height="14"
@@ -168,7 +172,7 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
                   href={instagramUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 rounded-lg bg-white/5 px-3 py-1.5 text-sm text-[#a1a1aa] transition-colors hover:bg-white/10 hover:text-white"
+                  className="inline-flex items-center gap-1 rounded-lg bg-[#2a1f14] px-3 py-1.5 text-sm text-[#d4c5a9] transition-colors hover:bg-[#5c4033] hover:text-white"
                 >
                   <svg
                     width="14"

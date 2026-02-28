@@ -3,10 +3,14 @@
 @theme inline {
   --color-background: #638596;
   --color-foreground: #ededed;
-  --color-card: #141414;
-  --color-card-hover: #1a1a1a;
-  --color-muted: #a1a1aa;
+  --color-card: #3d2b1f;
+  --color-card-hover: #5c4033;
+  --color-muted: #d4c5a9;
   --color-accent: #F97316;
+  --color-wood-dark: #2a1f14;
+  --color-wood-medium: #5c4033;
+  --color-wood-light: #6b4c3b;
+  --color-cream: #d4c5a9;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

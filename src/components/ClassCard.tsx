@@ -15,7 +15,7 @@ function Thumbnail({ src, alt }: { src: string; alt: string }) {
 
   if (error) {
     return (
-      <div className="flex aspect-square w-full items-center justify-center rounded-md bg-[#1a1a1a] text-lg">
+      <div className="flex aspect-square w-full items-center justify-center rounded-md bg-[#2a1f14] text-lg">
         🍕
       </div>
     );
@@ -36,7 +36,7 @@ function Thumbnail({ src, alt }: { src: string; alt: string }) {
 export default function ClassCard({ toppingClass }: ClassCardProps) {
   return (
     <Link href={`/class/${toppingClass.slug}`}>
-      <div className="group rounded-xl bg-[#141414] p-4 transition-all duration-200 hover:scale-[1.02] hover:bg-[#1a1a1a]">
+      <div className="group rounded-xl bg-[#3d2b1f] p-4 transition-all duration-200 hover:scale-[1.02] hover:bg-[#5c4033]">
         <div className="grid grid-cols-2 gap-2">
           {toppingClass.sampleImages.map((img, i) => (
             <Thumbnail key={i} src={img} alt={`${toppingClass.name} sample ${i + 1}`} />
@@ -46,7 +46,7 @@ export default function ClassCard({ toppingClass }: ClassCardProps) {
           <h3 className="text-base font-semibold text-white">
             {toppingClass.name}
           </h3>
-          <p className="text-sm text-[#a1a1aa]">
+          <p className="text-sm text-[#d4c5a9]">
             {toppingClass.count} toppings
           </p>
         </div>

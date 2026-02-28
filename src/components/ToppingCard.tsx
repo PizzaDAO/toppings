@@ -16,10 +16,10 @@ export default function ToppingCard({ topping }: ToppingCardProps) {
 
   return (
     <Link href={`/topping/${topping.sku}`}>
-      <div className="group rounded-xl bg-[#141414] p-3 transition-all duration-200 hover:scale-[1.02] hover:bg-[#1a1a1a]">
-        <div className="relative aspect-square w-full overflow-hidden rounded-lg bg-[#1a1a1a]">
+      <div className="group rounded-xl bg-[#3d2b1f] p-3 transition-all duration-200 hover:scale-[1.02] hover:bg-[#5c4033]">
+        <div className="relative aspect-square w-full overflow-hidden rounded-lg bg-[#2a1f14]">
           {imgError ? (
-            <div className="flex h-full w-full items-center justify-center bg-[#1a1a1a] text-6xl">
+            <div className="flex h-full w-full items-center justify-center bg-[#2a1f14] text-6xl">
               🍕
             </div>
           ) : (
@@ -37,7 +37,7 @@ export default function ToppingCard({ topping }: ToppingCardProps) {
           <h3 className="truncate text-sm font-semibold text-white">
             {topping.name}
           </h3>
-          <p className="truncate text-xs text-[#a1a1aa]">{topping.artist}</p>
+          <p className="truncate text-xs text-[#d4c5a9]">{topping.artist}</p>
           <RarityBadge rarity={topping.rarity} />
         </div>
       </div>

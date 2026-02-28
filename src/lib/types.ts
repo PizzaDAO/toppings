@@ -12,6 +12,8 @@ export interface Topping {
   rarity: Rarity;
   probability: number;
   image: string;
+  variants: string[];
+  altArt?: { image: string; artist: string; label: string }[];
   nutrition: Record<string, number | undefined>;
 }
 
