@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import type { ToppingClass } from "@/lib/types";
+import { getImageUrl } from "@/lib/constants";
 
 interface ClassCardProps {
   toppingClass: ToppingClass;
@@ -22,7 +23,7 @@ function Thumbnail({ src, alt }: { src: string; alt: string }) {
 
   return (
     <Image
-      src={src}
+      src={getImageUrl(src)}
       alt={alt}
       width={100}
       height={100}

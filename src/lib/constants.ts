@@ -3,6 +3,12 @@ export const RARE_PIZZAS_CONTRACT = "0xe6616436ff001fe827e37c7fad100f531d0935f0"
 export const SPREADSHEET_URL =
   "https://docs.google.com/spreadsheets/d/1xN149zkgSXPfJhDwQrIzlMzcU9gB--ihdoO_XJXCqf0/edit?gid=0#gid=0";
 
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
+export function getImageUrl(path: string): string {
+  return `${BASE_PATH}${path}`;
+}
+
 export const RARITY_COLORS: Record<string, string> = {
   common: "#9CA3AF",
   uncommon: "#22C55E",

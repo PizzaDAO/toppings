@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { getImageUrl } from "@/lib/constants";
 
 interface ToppingImageProps {
   image: string;
@@ -21,7 +22,7 @@ export default function ToppingImage({ image, name }: ToppingImageProps) {
 
   return (
     <Image
-      src={image}
+      src={getImageUrl(image)}
       alt={name}
       width={600}
       height={600}

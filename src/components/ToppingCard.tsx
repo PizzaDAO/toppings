@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import RarityBadge from "./RarityBadge";
 import type { Topping } from "@/lib/types";
+import { getImageUrl } from "@/lib/constants";
 
 interface ToppingCardProps {
   topping: Topping;
@@ -23,7 +24,7 @@ export default function ToppingCard({ topping }: ToppingCardProps) {
             </div>
           ) : (
             <Image
-              src={topping.image}
+              src={getImageUrl(topping.image)}
               alt={topping.name}
               width={400}
               height={400}
