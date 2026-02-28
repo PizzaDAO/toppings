@@ -106,7 +106,7 @@ for (const row of records) {
     artistIG: row["IG"]?.trim() || undefined,
     rarity,
     probability: isNaN(prob) ? 0 : prob,
-    image: `/toppings/${sku}.webp`,
+    image: `/art/${sku}.webp`,
     nutrition,
   });
 }

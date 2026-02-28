@@ -4,7 +4,7 @@ import { join } from "path";
 
 const SOURCE_DIR =
   "C:\\Users\\samgo\\PizzaDAO Dropbox\\Dread Pizza Roberts\\pizza-oven-py\\ingredients-db";
-const OUT_DIR = join(__dirname, "..", "public", "toppings");
+const OUT_DIR = join(__dirname, "..", "public", "art");
 const DATA_PATH = join(__dirname, "..", "src", "data", "toppings.json");
 
 const toppings = JSON.parse(readFileSync(DATA_PATH, "utf-8"));

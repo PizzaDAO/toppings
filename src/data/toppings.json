@@ -8,7 +8,7 @@
     "artistIG": "instagram.com/m.sparber.art",
     "rarity": "common",
     "probability": 0,
-    "image": "/toppings/1000.webp",
+    "image": "/art/1000.webp",
     "nutrition": {}
   },
   {
@@ -20,7 +20,7 @@
     "artistDiscord": "erickstow#0474",
     "rarity": "common",
     "probability": 0,
-    "image": "/toppings/1010.webp",
+    "image": "/art/1010.webp",
     "nutrition": {}
   },
   {
@@ -33,7 +33,7 @@
     "artistDiscord": "JoelDTG#3379",
     "rarity": "rare",
     "probability": 0,
-    "image": "/toppings/1020.webp",
+    "image": "/art/1020.webp",
     "nutrition": {}
   },
   {
@@ -46,7 +46,7 @@
     "artistDiscord": "JoelDTG#3379",
     "rarity": "epic",
     "probability": 0,
-    "image": "/toppings/1040.webp",
+    "image": "/art/1040.webp",
     "nutrition": {}
   },
   {
@@ -59,7 +59,7 @@
     "artistDiscord": "LoudColorz#8286",
     "rarity": "superrare",
     "probability": 0,
-    "image": "/toppings/1050.webp",
+    "image": "/art/1050.webp",
     "nutrition": {}
   },
   {
@@ -71,7 +71,7 @@
     "artistDiscord": "ask Cactus",
     "rarity": "epic",
     "probability": 0,
-    "image": "/toppings/1060.webp",
+    "image": "/art/1060.webp",
     "nutrition": {}
   },
   {
@@ -83,7 +83,7 @@
     "artistDiscord": "SavageRecluse#0209",
     "rarity": "rare",
     "probability": 0,
-    "image": "/toppings/1070.webp",
+    "image": "/art/1070.webp",
     "nutrition": {}
   },
   {
@@ -96,7 +96,7 @@
     "artistDiscord": "jimthedev#0751",
     "rarity": "common",
     "probability": 44.94,
-    "image": "/toppings/2000.webp",
+    "image": "/art/2000.webp",
     "nutrition": {}
   },
   {
@@ -109,7 +109,7 @@
     "artistDiscord": "DIDIMX#8781",
     "rarity": "uncommon",
     "probability": 15.73,
-    "image": "/toppings/2010.webp",
+    "image": "/art/2010.webp",
     "nutrition": {}
   },
   {
@@ -122,7 +122,7 @@
     "artistDiscord": "thom#8900",
     "rarity": "uncommon",
     "probability": 15.73,
-    "image": "/toppings/2030.webp",
+    "image": "/art/2030.webp",
     "nutrition": {}
   },
   {
@@ -135,7 +135,7 @@
     "artistDiscord": "Kilroy#6032",
     "rarity": "superrare",
     "probability": 2.25,
-    "image": "/toppings/2040.webp",
+    "image": "/art/2040.webp",
     "nutrition": {}
   },
   {
@@ -147,7 +147,7 @@
     "artistTwitter": "n/a",
     "rarity": "uncommon",
     "probability": 15.73,
-    "image": "/toppings/2050.webp",
+    "image": "/art/2050.webp",
     "nutrition": {}
   },
   {
@@ -160,7 +160,7 @@
     "artistDiscord": "JoelDTG#3379",
     "rarity": "superrare",
     "probability": 2.25,
-    "image": "/toppings/2060.webp",
+    "image": "/art/2060.webp",
     "nutrition": {}
   },
   {
@@ -172,7 +172,7 @@
     "artistTwitter": "the_artfool",
     "rarity": "epic",
     "probability": 1.12,
-    "image": "/toppings/2070.webp",
+    "image": "/art/2070.webp",
     "nutrition": {}
   },
   {
@@ -185,7 +185,7 @@
     "artistDiscord": "see Shrimp",
     "rarity": "superrare",
     "probability": 2.25,
-    "image": "/toppings/2100.webp",
+    "image": "/art/2100.webp",
     "nutrition": {}
   },
   {
@@ -198,7 +198,7 @@
     "artistDiscord": "erickstow#0474",
     "rarity": "common",
     "probability": 72.73,
-    "image": "/toppings/3000.webp",
+    "image": "/art/3000.webp",
     "nutrition": {}
   },
   {
@@ -211,7 +211,7 @@
     "artistDiscord": "Unboiled#8248",
     "rarity": "uncommon",
     "probability": 1.82,
-    "image": "/toppings/3010.webp",
+    "image": "/art/3010.webp",
     "nutrition": {}
   },
   {
@@ -224,7 +224,7 @@
     "artistDiscord": "alexandermazzei#7953",
     "rarity": "uncommon",
     "probability": 1.82,
-    "image": "/toppings/3020.webp",
+    "image": "/art/3020.webp",
     "nutrition": {}
   },
   {
@@ -237,7 +237,7 @@
     "artistDiscord": "jseverin#3061",
     "rarity": "uncommon",
     "probability": 1.82,
-    "image": "/toppings/3030.webp",
+    "image": "/art/3030.webp",
     "nutrition": {}
   },
   {
@@ -250,7 +250,7 @@
     "artistDiscord": "The House of Crypto#0550",
     "rarity": "uncommon",
     "probability": 1.82,
-    "image": "/toppings/3080.webp",
+    "image": "/art/3080.webp",
     "nutrition": {}
   },
   {
@@ -261,7 +261,7 @@
     "artist": "$DOG DAO",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/3090.webp",
+    "image": "/art/3090.webp",
     "nutrition": {}
   },
   {
@@ -275,7 +275,7 @@
     "artistIG": "klingraphael",
     "rarity": "rare",
     "probability": 9.09,
-    "image": "/toppings/3100.webp",
+    "image": "/art/3100.webp",
     "nutrition": {}
   },
   {
@@ -288,7 +288,7 @@
     "artistDiscord": "see Shrimp",
     "rarity": "superrare",
     "probability": 1.82,
-    "image": "/toppings/3170.webp",
+    "image": "/art/3170.webp",
     "nutrition": {}
   },
   {
@@ -302,7 +302,7 @@
     "artistIG": "cachungster",
     "rarity": "rare",
     "probability": 9.09,
-    "image": "/toppings/3190.webp",
+    "image": "/art/3190.webp",
     "nutrition": {}
   },
   {
@@ -315,7 +315,7 @@
     "artistDiscord": "Zedarius#7409",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/4000.webp",
+    "image": "/art/4000.webp",
     "nutrition": {}
   },
   {
@@ -328,7 +328,7 @@
     "artistDiscord": "mugwert#6089",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/4010.webp",
+    "image": "/art/4010.webp",
     "nutrition": {}
   },
   {
@@ -341,7 +341,7 @@
     "artistDiscord": "infiltrate#9524",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4020.webp",
+    "image": "/art/4020.webp",
     "nutrition": {}
   },
   {
@@ -354,7 +354,7 @@
     "artistDiscord": "bard ionson#3673",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4030.webp",
+    "image": "/art/4030.webp",
     "nutrition": {}
   },
   {
@@ -366,7 +366,7 @@
     "artistTwitter": "trizzytrunk",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/4040.webp",
+    "image": "/art/4040.webp",
     "nutrition": {}
   },
   {
@@ -378,7 +378,7 @@
     "artistTwitter": "ig: joshhilty",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4050.webp",
+    "image": "/art/4050.webp",
     "nutrition": {
       "cholesterol": 9,
       "added_sugars": 4050,
@@ -395,7 +395,7 @@
     "artistDiscord": "c13studio#1207",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4060.webp",
+    "image": "/art/4060.webp",
     "nutrition": {}
   },
   {
@@ -408,7 +408,7 @@
     "artistDiscord": "L V L 9 9#5437",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4070.webp",
+    "image": "/art/4070.webp",
     "nutrition": {}
   },
   {
@@ -420,7 +420,7 @@
     "artistTwitter": "ninaadkothawade",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4080.webp",
+    "image": "/art/4080.webp",
     "nutrition": {}
   },
   {
@@ -434,7 +434,7 @@
     "artistIG": "kimbafranceskerner",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4090.webp",
+    "image": "/art/4090.webp",
     "nutrition": {}
   },
   {
@@ -447,7 +447,7 @@
     "artistDiscord": "ysgjay#6289",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4110.webp",
+    "image": "/art/4110.webp",
     "nutrition": {}
   },
   {
@@ -460,7 +460,7 @@
     "artistDiscord": "kaodraws#1638",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/4120.webp",
+    "image": "/art/4120.webp",
     "nutrition": {}
   },
   {
@@ -473,7 +473,7 @@
     "artistDiscord": "dank_melons#3600",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/4130.webp",
+    "image": "/art/4130.webp",
     "nutrition": {}
   },
   {
@@ -486,7 +486,7 @@
     "artistDiscord": "ask Peanut Chews",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/4150.webp",
+    "image": "/art/4150.webp",
     "nutrition": {}
   },
   {
@@ -499,7 +499,7 @@
     "artistDiscord": "BadAndy#8317",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4160.webp",
+    "image": "/art/4160.webp",
     "nutrition": {}
   },
   {
@@ -511,7 +511,7 @@
     "artistTwitter": "Lovewelchs",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4180.webp",
+    "image": "/art/4180.webp",
     "nutrition": {}
   },
   {
@@ -524,7 +524,7 @@
     "artistDiscord": "statuswoe#2203",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4190.webp",
+    "image": "/art/4190.webp",
     "nutrition": {}
   },
   {
@@ -538,7 +538,7 @@
     "artistIG": "dgducos",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4200.webp",
+    "image": "/art/4200.webp",
     "nutrition": {}
   },
   {
@@ -550,7 +550,7 @@
     "artistTwitter": "n/a",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/4210.webp",
+    "image": "/art/4210.webp",
     "nutrition": {}
   },
   {
@@ -563,7 +563,7 @@
     "artistDiscord": "RasterEyes#0001",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4220.webp",
+    "image": "/art/4220.webp",
     "nutrition": {}
   },
   {
@@ -577,7 +577,7 @@
     "artistIG": "hwajilla",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4230.webp",
+    "image": "/art/4230.webp",
     "nutrition": {}
   },
   {
@@ -589,7 +589,7 @@
     "artistTwitter": "digitalflowercg",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4240.webp",
+    "image": "/art/4240.webp",
     "nutrition": {}
   },
   {
@@ -601,7 +601,7 @@
     "artistTwitter": "ersoyirsi",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/4260.webp",
+    "image": "/art/4260.webp",
     "nutrition": {}
   },
   {
@@ -614,7 +614,7 @@
     "artistDiscord": "Pixiegirl#9728",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/4270.webp",
+    "image": "/art/4270.webp",
     "nutrition": {}
   },
   {
@@ -627,7 +627,7 @@
     "artistDiscord": "Sebastian K.#9048",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4280.webp",
+    "image": "/art/4280.webp",
     "nutrition": {}
   },
   {
@@ -640,7 +640,7 @@
     "artistDiscord": "hawkward#5166",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/4290.webp",
+    "image": "/art/4290.webp",
     "nutrition": {}
   },
   {
@@ -653,7 +653,7 @@
     "artistDiscord": "DarkoR#0313",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4310.webp",
+    "image": "/art/4310.webp",
     "nutrition": {}
   },
   {
@@ -665,7 +665,7 @@
     "artistTwitter": "dani_tranquila",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4320.webp",
+    "image": "/art/4320.webp",
     "nutrition": {}
   },
   {
@@ -677,7 +677,7 @@
     "artistTwitter": "ArabelaTuti",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/4330.webp",
+    "image": "/art/4330.webp",
     "nutrition": {}
   },
   {
@@ -690,7 +690,7 @@
     "artistDiscord": "extrastu#1542",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4340.webp",
+    "image": "/art/4340.webp",
     "nutrition": {}
   },
   {
@@ -703,7 +703,7 @@
     "artistDiscord": "holdupwaitaminute#9886",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4350.webp",
+    "image": "/art/4350.webp",
     "nutrition": {}
   },
   {
@@ -716,7 +716,7 @@
     "artistDiscord": "ask Peanut Chews",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4360.webp",
+    "image": "/art/4360.webp",
     "nutrition": {}
   },
   {
@@ -729,7 +729,7 @@
     "artistDiscord": "PantherModern#5597",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4370.webp",
+    "image": "/art/4370.webp",
     "nutrition": {}
   },
   {
@@ -742,7 +742,7 @@
     "artistDiscord": "Emma Park#8198",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4390.webp",
+    "image": "/art/4390.webp",
     "nutrition": {}
   },
   {
@@ -755,7 +755,7 @@
     "artistDiscord": "keimart#6645",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/4400.webp",
+    "image": "/art/4400.webp",
     "nutrition": {}
   },
   {
@@ -768,7 +768,7 @@
     "artistDiscord": "laughandbelly#2386",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/4410.webp",
+    "image": "/art/4410.webp",
     "nutrition": {}
   },
   {
@@ -781,7 +781,7 @@
     "artistDiscord": "Junouno",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/4430.webp",
+    "image": "/art/4430.webp",
     "nutrition": {}
   },
   {
@@ -794,7 +794,7 @@
     "artistDiscord": "ZuwuTV#8118",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4440.webp",
+    "image": "/art/4440.webp",
     "nutrition": {}
   },
   {
@@ -806,7 +806,7 @@
     "artistTwitter": "RageOfPotato",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4450.webp",
+    "image": "/art/4450.webp",
     "nutrition": {}
   },
   {
@@ -818,7 +818,7 @@
     "artistTwitter": "lightnoosh",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/4460.webp",
+    "image": "/art/4460.webp",
     "nutrition": {
       "added_sugars": 5810
     }
@@ -833,7 +833,7 @@
     "artistDiscord": "Anasculpt#9319",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4600.webp",
+    "image": "/art/4600.webp",
     "nutrition": {}
   },
   {
@@ -846,7 +846,7 @@
     "artistDiscord": "ask Peanut Chews",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4610.webp",
+    "image": "/art/4610.webp",
     "nutrition": {}
   },
   {
@@ -858,7 +858,7 @@
     "artistTwitter": "BequalsINGS",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4620.webp",
+    "image": "/art/4620.webp",
     "nutrition": {}
   },
   {
@@ -871,7 +871,7 @@
     "artistDiscord": "ask Peanut Chews",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4630.webp",
+    "image": "/art/4630.webp",
     "nutrition": {}
   },
   {
@@ -883,7 +883,7 @@
     "artistTwitter": "artoflizz",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4640.webp",
+    "image": "/art/4640.webp",
     "nutrition": {}
   },
   {
@@ -895,7 +895,7 @@
     "artistTwitter": "vylkrom",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4650.webp",
+    "image": "/art/4650.webp",
     "nutrition": {}
   },
   {
@@ -908,7 +908,7 @@
     "artistDiscord": "SantaClaws#4388",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4660.webp",
+    "image": "/art/4660.webp",
     "nutrition": {}
   },
   {
@@ -921,7 +921,7 @@
     "artistDiscord": "Don Pizza Czech#8239",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4670.webp",
+    "image": "/art/4670.webp",
     "nutrition": {}
   },
   {
@@ -934,7 +934,7 @@
     "artistDiscord": "SinceX7#7726",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4680.webp",
+    "image": "/art/4680.webp",
     "nutrition": {}
   },
   {
@@ -946,7 +946,7 @@
     "artistTwitter": "446f6d1",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/4890.webp",
+    "image": "/art/4890.webp",
     "nutrition": {}
   },
   {
@@ -959,7 +959,7 @@
     "artistDiscord": "Juan Pablo#6989",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/4900.webp",
+    "image": "/art/4900.webp",
     "nutrition": {}
   },
   {
@@ -972,7 +972,7 @@
     "artistDiscord": "Tapwaterjared#9722",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4910.webp",
+    "image": "/art/4910.webp",
     "nutrition": {}
   },
   {
@@ -984,7 +984,7 @@
     "artistTwitter": "Beez_Kneez0",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4920.webp",
+    "image": "/art/4920.webp",
     "nutrition": {}
   },
   {
@@ -996,7 +996,7 @@
     "artistTwitter": "grandedameuk",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/4930.webp",
+    "image": "/art/4930.webp",
     "nutrition": {}
   },
   {
@@ -1009,7 +1009,7 @@
     "artistDiscord": "John N.#7039",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/4940.webp",
+    "image": "/art/4940.webp",
     "nutrition": {}
   },
   {
@@ -1021,7 +1021,7 @@
     "artistTwitter": "NFTCatgirl",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4950.webp",
+    "image": "/art/4950.webp",
     "nutrition": {}
   },
   {
@@ -1033,7 +1033,7 @@
     "artistTwitter": "brauxelion",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4960.webp",
+    "image": "/art/4960.webp",
     "nutrition": {}
   },
   {
@@ -1046,7 +1046,7 @@
     "artistDiscord": "alexlzim#8073",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/4970.webp",
+    "image": "/art/4970.webp",
     "nutrition": {}
   },
   {
@@ -1058,7 +1058,7 @@
     "artistTwitter": "MentaJengibre2",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4980.webp",
+    "image": "/art/4980.webp",
     "nutrition": {}
   },
   {
@@ -1070,7 +1070,7 @@
     "artistTwitter": "davidzhorvath",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/4990.webp",
+    "image": "/art/4990.webp",
     "nutrition": {}
   },
   {
@@ -1082,7 +1082,7 @@
     "artistTwitter": "ryanseslow",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5000.webp",
+    "image": "/art/5000.webp",
     "nutrition": {}
   },
   {
@@ -1095,7 +1095,7 @@
     "artistDiscord": "misterfelder#3914",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5010.webp",
+    "image": "/art/5010.webp",
     "nutrition": {}
   },
   {
@@ -1107,7 +1107,7 @@
     "artistTwitter": "KTLB",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5020.webp",
+    "image": "/art/5020.webp",
     "nutrition": {}
   },
   {
@@ -1120,7 +1120,7 @@
     "artistDiscord": "foodmasku",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/5030.webp",
+    "image": "/art/5030.webp",
     "nutrition": {}
   },
   {
@@ -1133,7 +1133,7 @@
     "artistDiscord": "JOAN#1394",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5040.webp",
+    "image": "/art/5040.webp",
     "nutrition": {}
   },
   {
@@ -1146,7 +1146,7 @@
     "artistDiscord": "Watermelon#2803",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5050.webp",
+    "image": "/art/5050.webp",
     "nutrition": {}
   },
   {
@@ -1159,7 +1159,7 @@
     "artistDiscord": "Pajke#9512",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5060.webp",
+    "image": "/art/5060.webp",
     "nutrition": {}
   },
   {
@@ -1172,7 +1172,7 @@
     "artistDiscord": "Soojincho#1425",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5070.webp",
+    "image": "/art/5070.webp",
     "nutrition": {}
   },
   {
@@ -1184,7 +1184,7 @@
     "artistTwitter": "ig: notintuition",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5080.webp",
+    "image": "/art/5080.webp",
     "nutrition": {}
   },
   {
@@ -1197,7 +1197,7 @@
     "artistDiscord": "araremood#1228",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5090.webp",
+    "image": "/art/5090.webp",
     "nutrition": {}
   },
   {
@@ -1210,7 +1210,7 @@
     "artistDiscord": "danscher#9852",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/5100.webp",
+    "image": "/art/5100.webp",
     "nutrition": {}
   },
   {
@@ -1223,7 +1223,7 @@
     "artistDiscord": "sooscape#6273",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5110.webp",
+    "image": "/art/5110.webp",
     "nutrition": {}
   },
   {
@@ -1236,7 +1236,7 @@
     "artistDiscord": "R.#7403",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5120.webp",
+    "image": "/art/5120.webp",
     "nutrition": {}
   },
   {
@@ -1249,7 +1249,7 @@
     "artistDiscord": "Don Pizza Slovak (Nika Kotláriková #4271)",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5130.webp",
+    "image": "/art/5130.webp",
     "nutrition": {}
   },
   {
@@ -1262,7 +1262,7 @@
     "artistDiscord": "Ain#6723",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5140.webp",
+    "image": "/art/5140.webp",
     "nutrition": {}
   },
   {
@@ -1275,7 +1275,7 @@
     "artistDiscord": "moonduck#7663",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/5150.webp",
+    "image": "/art/5150.webp",
     "nutrition": {}
   },
   {
@@ -1289,7 +1289,7 @@
     "artistIG": "instagram.com/voidskippa",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5160.webp",
+    "image": "/art/5160.webp",
     "nutrition": {}
   },
   {
@@ -1302,7 +1302,7 @@
     "artistDiscord": "Ciara Bourne#1835",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5170.webp",
+    "image": "/art/5170.webp",
     "nutrition": {}
   },
   {
@@ -1315,7 +1315,7 @@
     "artistIG": "instagram.com/sharona_color/",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5180.webp",
+    "image": "/art/5180.webp",
     "nutrition": {}
   },
   {
@@ -1328,7 +1328,7 @@
     "artistDiscord": "Sala Moon Music#7382",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/5190.webp",
+    "image": "/art/5190.webp",
     "nutrition": {}
   },
   {
@@ -1341,7 +1341,7 @@
     "artistDiscord": "madeinmanc#3477",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5200.webp",
+    "image": "/art/5200.webp",
     "nutrition": {}
   },
   {
@@ -1354,7 +1354,7 @@
     "artistDiscord": "willowB#8510",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/5210.webp",
+    "image": "/art/5210.webp",
     "nutrition": {}
   },
   {
@@ -1367,7 +1367,7 @@
     "artistDiscord": "ladez ladez#1478",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/5220.webp",
+    "image": "/art/5220.webp",
     "nutrition": {}
   },
   {
@@ -1379,7 +1379,7 @@
     "artistTwitter": "WhereIDraw",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5230.webp",
+    "image": "/art/5230.webp",
     "nutrition": {}
   },
   {
@@ -1392,7 +1392,7 @@
     "artistDiscord": "Spoonicle#0099",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5240.webp",
+    "image": "/art/5240.webp",
     "nutrition": {}
   },
   {
@@ -1405,7 +1405,7 @@
     "artistDiscord": "mumbot#2137",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5250.webp",
+    "image": "/art/5250.webp",
     "nutrition": {}
   },
   {
@@ -1417,7 +1417,7 @@
     "artistTwitter": "progresslatina38294@gmail.com",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5260.webp",
+    "image": "/art/5260.webp",
     "nutrition": {}
   },
   {
@@ -1429,7 +1429,7 @@
     "artistTwitter": "ig: davidphunk",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5280.webp",
+    "image": "/art/5280.webp",
     "nutrition": {}
   },
   {
@@ -1442,7 +1442,7 @@
     "artistDiscord": "SleeplessKnights",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5290.webp",
+    "image": "/art/5290.webp",
     "nutrition": {}
   },
   {
@@ -1455,7 +1455,7 @@
     "artistDiscord": "nsputnik#5336",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5400.webp",
+    "image": "/art/5400.webp",
     "nutrition": {}
   },
   {
@@ -1468,7 +1468,7 @@
     "artistDiscord": "reem#3321",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5410.webp",
+    "image": "/art/5410.webp",
     "nutrition": {}
   },
   {
@@ -1481,7 +1481,7 @@
     "artistDiscord": "easports21#5154",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5420.webp",
+    "image": "/art/5420.webp",
     "nutrition": {}
   },
   {
@@ -1494,7 +1494,7 @@
     "artistDiscord": "hyper.aesthetics",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/5440.webp",
+    "image": "/art/5440.webp",
     "nutrition": {}
   },
   {
@@ -1507,7 +1507,7 @@
     "artistDiscord": "caygen#4925",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5450.webp",
+    "image": "/art/5450.webp",
     "nutrition": {}
   },
   {
@@ -1519,7 +1519,7 @@
     "artistTwitter": "Aryaenne",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5470.webp",
+    "image": "/art/5470.webp",
     "nutrition": {}
   },
   {
@@ -1531,7 +1531,7 @@
     "artistTwitter": "spacedivers",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5480.webp",
+    "image": "/art/5480.webp",
     "nutrition": {}
   },
   {
@@ -1544,7 +1544,7 @@
     "artistDiscord": "BentleGiant#1427",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5500.webp",
+    "image": "/art/5500.webp",
     "nutrition": {}
   },
   {
@@ -1557,7 +1557,7 @@
     "artistDiscord": "Highballer#6308",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5510.webp",
+    "image": "/art/5510.webp",
     "nutrition": {}
   },
   {
@@ -1570,7 +1570,7 @@
     "artistDiscord": "EDOM#5808",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5520.webp",
+    "image": "/art/5520.webp",
     "nutrition": {}
   },
   {
@@ -1582,7 +1582,7 @@
     "artistTwitter": "ig: pap3rink",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5600.webp",
+    "image": "/art/5600.webp",
     "nutrition": {}
   },
   {
@@ -1595,7 +1595,7 @@
     "artistDiscord": "John | SCRTisland#0737",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/5610.webp",
+    "image": "/art/5610.webp",
     "nutrition": {}
   },
   {
@@ -1608,7 +1608,7 @@
     "artistDiscord": "lazylilack #2732",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5620.webp",
+    "image": "/art/5620.webp",
     "nutrition": {}
   },
   {
@@ -1621,7 +1621,7 @@
     "artistDiscord": "Ξito Asano🌈#1683",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5640.webp",
+    "image": "/art/5640.webp",
     "nutrition": {}
   },
   {
@@ -1634,7 +1634,7 @@
     "artistDiscord": "Haney#3426",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5650.webp",
+    "image": "/art/5650.webp",
     "nutrition": {}
   },
   {
@@ -1648,7 +1648,7 @@
     "artistIG": "https://www.instagram.com/ls528/",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5660.webp",
+    "image": "/art/5660.webp",
     "nutrition": {}
   },
   {
@@ -1661,7 +1661,7 @@
     "artistDiscord": "maceo#1732",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5670.webp",
+    "image": "/art/5670.webp",
     "nutrition": {}
   },
   {
@@ -1674,7 +1674,7 @@
     "artistDiscord": "framezero#5117",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5680.webp",
+    "image": "/art/5680.webp",
     "nutrition": {}
   },
   {
@@ -1687,7 +1687,7 @@
     "artistDiscord": "irregularsnd#8686",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5690.webp",
+    "image": "/art/5690.webp",
     "nutrition": {}
   },
   {
@@ -1699,7 +1699,7 @@
     "artistTwitter": "shakenbakespear",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/5700.webp",
+    "image": "/art/5700.webp",
     "nutrition": {}
   },
   {
@@ -1712,7 +1712,7 @@
     "artistDiscord": "TK Al-Mahti#1260",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5710.webp",
+    "image": "/art/5710.webp",
     "nutrition": {}
   },
   {
@@ -1725,7 +1725,7 @@
     "artistDiscord": "FlorianFrankfurt#0435",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/5720.webp",
+    "image": "/art/5720.webp",
     "nutrition": {}
   },
   {
@@ -1738,7 +1738,7 @@
     "artistDiscord": "Zenfinite369#1878",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5730.webp",
+    "image": "/art/5730.webp",
     "nutrition": {}
   },
   {
@@ -1751,7 +1751,7 @@
     "artistDiscord": "AMBO#7835",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/5740.webp",
+    "image": "/art/5740.webp",
     "nutrition": {}
   },
   {
@@ -1764,7 +1764,7 @@
     "artistDiscord": "mcirwinc#2186",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/5750.webp",
+    "image": "/art/5750.webp",
     "nutrition": {}
   },
   {
@@ -1777,7 +1777,7 @@
     "artistDiscord": "OOooyyooOO#3575",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5760.webp",
+    "image": "/art/5760.webp",
     "nutrition": {}
   },
   {
@@ -1790,7 +1790,7 @@
     "artistDiscord": "nilknahs#1392",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5770.webp",
+    "image": "/art/5770.webp",
     "nutrition": {}
   },
   {
@@ -1803,7 +1803,7 @@
     "artistDiscord": "Nataliecrue#1918",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5780.webp",
+    "image": "/art/5780.webp",
     "nutrition": {}
   },
   {
@@ -1816,7 +1816,7 @@
     "artistDiscord": "chinweko#7192",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/5790.webp",
+    "image": "/art/5790.webp",
     "nutrition": {}
   },
   {
@@ -1829,7 +1829,7 @@
     "artistDiscord": "ask Peanut Chews",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5820.webp",
+    "image": "/art/5820.webp",
     "nutrition": {}
   },
   {
@@ -1842,7 +1842,7 @@
     "artistDiscord": "ask Peanut Chews",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5830.webp",
+    "image": "/art/5830.webp",
     "nutrition": {}
   },
   {
@@ -1855,7 +1855,7 @@
     "artistDiscord": "rastapa#5996",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5840.webp",
+    "image": "/art/5840.webp",
     "nutrition": {}
   },
   {
@@ -1868,7 +1868,7 @@
     "artistDiscord": "A Body Without Organs",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5850.webp",
+    "image": "/art/5850.webp",
     "nutrition": {}
   },
   {
@@ -1881,7 +1881,7 @@
     "artistDiscord": "JeffJag#6678",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/5860.webp",
+    "image": "/art/5860.webp",
     "nutrition": {}
   },
   {
@@ -1894,7 +1894,7 @@
     "artistDiscord": "Don Truebard",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5870.webp",
+    "image": "/art/5870.webp",
     "nutrition": {}
   },
   {
@@ -1907,7 +1907,7 @@
     "artistDiscord": "Ross#5180",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5880.webp",
+    "image": "/art/5880.webp",
     "nutrition": {}
   },
   {
@@ -1919,7 +1919,7 @@
     "artistTwitter": "??",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5890.webp",
+    "image": "/art/5890.webp",
     "nutrition": {}
   },
   {
@@ -1931,7 +1931,7 @@
     "artistTwitter": "?? montagna_tomas",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/5900.webp",
+    "image": "/art/5900.webp",
     "nutrition": {}
   },
   {
@@ -1943,7 +1943,7 @@
     "artistTwitter": "amirhfallah",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/5910.webp",
+    "image": "/art/5910.webp",
     "nutrition": {}
   },
   {
@@ -1955,7 +1955,7 @@
     "artistTwitter": "Cryptocalpyse",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/5920.webp",
+    "image": "/art/5920.webp",
     "nutrition": {}
   },
   {
@@ -1967,7 +1967,7 @@
     "artistTwitter": "nft_papi",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5930.webp",
+    "image": "/art/5930.webp",
     "nutrition": {}
   },
   {
@@ -1979,7 +1979,7 @@
     "artistTwitter": "OPlerou",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/5940.webp",
+    "image": "/art/5940.webp",
     "nutrition": {}
   },
   {
@@ -1992,7 +1992,7 @@
     "artistDiscord": "AnthonyShafer#9847",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/6000.webp",
+    "image": "/art/6000.webp",
     "nutrition": {}
   },
   {
@@ -2005,7 +2005,7 @@
     "artistDiscord": "Analemma#8856",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/6010.webp",
+    "image": "/art/6010.webp",
     "nutrition": {}
   },
   {
@@ -2018,7 +2018,7 @@
     "artistDiscord": "ArtAboveReality#6028",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6020.webp",
+    "image": "/art/6020.webp",
     "nutrition": {}
   },
   {
@@ -2031,7 +2031,7 @@
     "artistDiscord": "Mark 🍄#8126",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6030.webp",
+    "image": "/art/6030.webp",
     "nutrition": {}
   },
   {
@@ -2044,7 +2044,7 @@
     "artistDiscord": "d3cker#8743",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6040.webp",
+    "image": "/art/6040.webp",
     "nutrition": {}
   },
   {
@@ -2057,7 +2057,7 @@
     "artistDiscord": "LoBo_301#8922",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6050.webp",
+    "image": "/art/6050.webp",
     "nutrition": {}
   },
   {
@@ -2070,7 +2070,7 @@
     "artistDiscord": "tomaytravel(seounghwan kim)#1952",
     "rarity": "grail",
     "probability": 0.02,
-    "image": "/toppings/6060.webp",
+    "image": "/art/6060.webp",
     "nutrition": {}
   },
   {
@@ -2083,7 +2083,7 @@
     "artistDiscord": "lindsayking#4123",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6070.webp",
+    "image": "/art/6070.webp",
     "nutrition": {}
   },
   {
@@ -2096,7 +2096,7 @@
     "artistDiscord": "charles.witter#1067",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6080.webp",
+    "image": "/art/6080.webp",
     "nutrition": {}
   },
   {
@@ -2109,7 +2109,7 @@
     "artistDiscord": "jadeduck#6888 / Pizza Poke",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6090.webp",
+    "image": "/art/6090.webp",
     "nutrition": {}
   },
   {
@@ -2122,7 +2122,7 @@
     "artistDiscord": "Stefanos#0194 (Octopus)",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6100.webp",
+    "image": "/art/6100.webp",
     "nutrition": {}
   },
   {
@@ -2135,7 +2135,7 @@
     "artistDiscord": "🍓🍓🍓#0987",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6110.webp",
+    "image": "/art/6110.webp",
     "nutrition": {}
   },
   {
@@ -2147,7 +2147,7 @@
     "artistTwitter": "n/a",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6120.webp",
+    "image": "/art/6120.webp",
     "nutrition": {}
   },
   {
@@ -2160,7 +2160,7 @@
     "artistDiscord": "HOSUGI#7304",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6130.webp",
+    "image": "/art/6130.webp",
     "nutrition": {}
   },
   {
@@ -2173,7 +2173,7 @@
     "artistDiscord": "yuuki01#9993",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6140.webp",
+    "image": "/art/6140.webp",
     "nutrition": {}
   },
   {
@@ -2187,7 +2187,7 @@
     "artistIG": "instagram.com/uniquelab/",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6150.webp",
+    "image": "/art/6150.webp",
     "nutrition": {}
   },
   {
@@ -2200,7 +2200,7 @@
     "artistDiscord": "SIRON#7582",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6160.webp",
+    "image": "/art/6160.webp",
     "nutrition": {}
   },
   {
@@ -2213,7 +2213,7 @@
     "artistIG": "cuspbycassie",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6170.webp",
+    "image": "/art/6170.webp",
     "nutrition": {}
   },
   {
@@ -2225,7 +2225,7 @@
     "artistTwitter": "ig: nudiestitches",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/6190.webp",
+    "image": "/art/6190.webp",
     "nutrition": {}
   },
   {
@@ -2238,7 +2238,7 @@
     "artistDiscord": "slowbro#5173",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6200.webp",
+    "image": "/art/6200.webp",
     "nutrition": {}
   },
   {
@@ -2251,7 +2251,7 @@
     "artistDiscord": "stephenrjudge#9486",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/6210.webp",
+    "image": "/art/6210.webp",
     "nutrition": {}
   },
   {
@@ -2264,7 +2264,7 @@
     "artistDiscord": "Stayseaart#0907",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6220.webp",
+    "image": "/art/6220.webp",
     "nutrition": {}
   },
   {
@@ -2277,7 +2277,7 @@
     "artistDiscord": "Necatuss#3091",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6230.webp",
+    "image": "/art/6230.webp",
     "nutrition": {}
   },
   {
@@ -2290,7 +2290,7 @@
     "artistDiscord": "Twitchitt#9823",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6240.webp",
+    "image": "/art/6240.webp",
     "nutrition": {}
   },
   {
@@ -2303,7 +2303,7 @@
     "artistDiscord": "Zac Kenny#2913",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6250.webp",
+    "image": "/art/6250.webp",
     "nutrition": {}
   },
   {
@@ -2316,7 +2316,7 @@
     "artistDiscord": "kimkim#2631",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/6260.webp",
+    "image": "/art/6260.webp",
     "nutrition": {}
   },
   {
@@ -2329,7 +2329,7 @@
     "artistDiscord": "OXOXO#2593",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/6270.webp",
+    "image": "/art/6270.webp",
     "nutrition": {}
   },
   {
@@ -2342,7 +2342,7 @@
     "artistDiscord": "ask Peanut Chews",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6280.webp",
+    "image": "/art/6280.webp",
     "nutrition": {}
   },
   {
@@ -2354,7 +2354,7 @@
     "artistTwitter": "ig: leeannfenderson",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6290.webp",
+    "image": "/art/6290.webp",
     "nutrition": {}
   },
   {
@@ -2367,7 +2367,7 @@
     "artistDiscord": "milkmanmelvin#2976",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6300.webp",
+    "image": "/art/6300.webp",
     "nutrition": {}
   },
   {
@@ -2380,7 +2380,7 @@
     "artistDiscord": "nftmints#2107",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6310.webp",
+    "image": "/art/6310.webp",
     "nutrition": {}
   },
   {
@@ -2393,7 +2393,7 @@
     "artistDiscord": "adrianaskura#6163",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/6320.webp",
+    "image": "/art/6320.webp",
     "nutrition": {}
   },
   {
@@ -2405,7 +2405,7 @@
     "artistTwitter": "artmetaverse",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6330.webp",
+    "image": "/art/6330.webp",
     "nutrition": {}
   },
   {
@@ -2417,7 +2417,7 @@
     "artistTwitter": "twitter.com/ashirasart",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6340.webp",
+    "image": "/art/6340.webp",
     "nutrition": {}
   },
   {
@@ -2430,7 +2430,7 @@
     "artistDiscord": "IP_rimko#9408",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6350.webp",
+    "image": "/art/6350.webp",
     "nutrition": {}
   },
   {
@@ -2442,7 +2442,7 @@
     "artistTwitter": "gunaygoksel",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/6360.webp",
+    "image": "/art/6360.webp",
     "nutrition": {}
   },
   {
@@ -2455,7 +2455,7 @@
     "artistDiscord": "fronc#3246",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/6370.webp",
+    "image": "/art/6370.webp",
     "nutrition": {}
   },
   {
@@ -2467,7 +2467,7 @@
     "artistTwitter": "Hamm_day",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6400.webp",
+    "image": "/art/6400.webp",
     "nutrition": {}
   },
   {
@@ -2480,7 +2480,7 @@
     "artistDiscord": "Vinny#4661",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6410.webp",
+    "image": "/art/6410.webp",
     "nutrition": {}
   },
   {
@@ -2494,7 +2494,7 @@
     "artistIG": "grillsgrillsgrills",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6420.webp",
+    "image": "/art/6420.webp",
     "nutrition": {}
   },
   {
@@ -2507,7 +2507,7 @@
     "artistDiscord": "JenJoy#3422",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6430.webp",
+    "image": "/art/6430.webp",
     "nutrition": {}
   },
   {
@@ -2519,7 +2519,7 @@
     "artistTwitter": "ig: caoticadesigner",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6440.webp",
+    "image": "/art/6440.webp",
     "nutrition": {}
   },
   {
@@ -2532,7 +2532,7 @@
     "artistDiscord": "keymaster74#5026",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6460.webp",
+    "image": "/art/6460.webp",
     "nutrition": {}
   },
   {
@@ -2544,7 +2544,7 @@
     "artistTwitter": "fara_zamini2122",
     "rarity": "grail",
     "probability": 0.02,
-    "image": "/toppings/6470.webp",
+    "image": "/art/6470.webp",
     "nutrition": {
       "added_sugars": 5280
     }
@@ -2559,7 +2559,7 @@
     "artistDiscord": "SplatMap",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6480.webp",
+    "image": "/art/6480.webp",
     "nutrition": {}
   },
   {
@@ -2572,7 +2572,7 @@
     "artistDiscord": "SpazeCraft (DJ/VJ)",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6490.webp",
+    "image": "/art/6490.webp",
     "nutrition": {}
   },
   {
@@ -2583,7 +2583,7 @@
     "artist": "Unknown",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6500.webp",
+    "image": "/art/6500.webp",
     "nutrition": {}
   },
   {
@@ -2595,7 +2595,7 @@
     "artistTwitter": "n/a",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6510.webp",
+    "image": "/art/6510.webp",
     "nutrition": {}
   },
   {
@@ -2607,7 +2607,7 @@
     "artistTwitter": "totalhappy",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6520.webp",
+    "image": "/art/6520.webp",
     "nutrition": {}
   },
   {
@@ -2619,7 +2619,7 @@
     "artistTwitter": "ig: Hekkate_",
     "rarity": "grail",
     "probability": 0.02,
-    "image": "/toppings/6530.webp",
+    "image": "/art/6530.webp",
     "nutrition": {}
   },
   {
@@ -2632,7 +2632,7 @@
     "artistDiscord": "ben雲海#0003",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6540.webp",
+    "image": "/art/6540.webp",
     "nutrition": {}
   },
   {
@@ -2644,7 +2644,7 @@
     "artistTwitter": "theshapemaker1",
     "rarity": "grail",
     "probability": 0.02,
-    "image": "/toppings/6560.webp",
+    "image": "/art/6560.webp",
     "nutrition": {}
   },
   {
@@ -2657,7 +2657,7 @@
     "artistDiscord": "Hugh#7173",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6570.webp",
+    "image": "/art/6570.webp",
     "nutrition": {}
   },
   {
@@ -2670,7 +2670,7 @@
     "artistIG": "rhvxm",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6580.webp",
+    "image": "/art/6580.webp",
     "nutrition": {}
   },
   {
@@ -2683,7 +2683,7 @@
     "artistDiscord": "See Shrimp",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6590.webp",
+    "image": "/art/6590.webp",
     "nutrition": {}
   },
   {
@@ -2696,7 +2696,7 @@
     "artistDiscord": "Roze#4809",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6600.webp",
+    "image": "/art/6600.webp",
     "nutrition": {}
   },
   {
@@ -2708,7 +2708,7 @@
     "artistTwitter": "angelacrypto1",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6610.webp",
+    "image": "/art/6610.webp",
     "nutrition": {}
   },
   {
@@ -2721,7 +2721,7 @@
     "artistDiscord": "crzikrn #7906",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6620.webp",
+    "image": "/art/6620.webp",
     "nutrition": {}
   },
   {
@@ -2734,7 +2734,7 @@
     "artistDiscord": "snorkelshark#3078",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6630.webp",
+    "image": "/art/6630.webp",
     "nutrition": {}
   },
   {
@@ -2747,7 +2747,7 @@
     "artistDiscord": "untitled_day#9769",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6640.webp",
+    "image": "/art/6640.webp",
     "nutrition": {}
   },
   {
@@ -2760,7 +2760,7 @@
     "artistDiscord": "Hwamin SHIN#8781",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6660.webp",
+    "image": "/art/6660.webp",
     "nutrition": {}
   },
   {
@@ -2773,7 +2773,7 @@
     "artistDiscord": "sungsu#5672",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6670.webp",
+    "image": "/art/6670.webp",
     "nutrition": {}
   },
   {
@@ -2785,7 +2785,7 @@
     "artistTwitter": "yo_ma_hon",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6680.webp",
+    "image": "/art/6680.webp",
     "nutrition": {}
   },
   {
@@ -2798,7 +2798,7 @@
     "artistDiscord": "joshies#1395",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6690.webp",
+    "image": "/art/6690.webp",
     "nutrition": {}
   },
   {
@@ -2810,7 +2810,7 @@
     "artistTwitter": "mariaoben",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6700.webp",
+    "image": "/art/6700.webp",
     "nutrition": {}
   },
   {
@@ -2823,7 +2823,7 @@
     "artistDiscord": "Cielo Rose#9049",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6710.webp",
+    "image": "/art/6710.webp",
     "nutrition": {}
   },
   {
@@ -2836,7 +2836,7 @@
     "artistDiscord": "multiverse#3817",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6720.webp",
+    "image": "/art/6720.webp",
     "nutrition": {}
   },
   {
@@ -2849,7 +2849,7 @@
     "artistDiscord": "Spielraum#9338",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6730.webp",
+    "image": "/art/6730.webp",
     "nutrition": {}
   },
   {
@@ -2862,7 +2862,7 @@
     "artistDiscord": "Mr. Mentat#9569",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6740.webp",
+    "image": "/art/6740.webp",
     "nutrition": {}
   },
   {
@@ -2875,7 +2875,7 @@
     "artistDiscord": "Adidust.eth#0101",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6750.webp",
+    "image": "/art/6750.webp",
     "nutrition": {}
   },
   {
@@ -2887,7 +2887,7 @@
     "artistTwitter": "yetgol_saloon",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6760.webp",
+    "image": "/art/6760.webp",
     "nutrition": {}
   },
   {
@@ -2900,7 +2900,7 @@
     "artistDiscord": "Jas#4559",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6770.webp",
+    "image": "/art/6770.webp",
     "nutrition": {}
   },
   {
@@ -2913,7 +2913,7 @@
     "artistDiscord": "obxium",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6780.webp",
+    "image": "/art/6780.webp",
     "nutrition": {}
   },
   {
@@ -2925,7 +2925,7 @@
     "artistTwitter": "????? RazerXthewindow",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6790.webp",
+    "image": "/art/6790.webp",
     "nutrition": {}
   },
   {
@@ -2938,7 +2938,7 @@
     "artistIG": "instagram.com/rowena.originals",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6810.webp",
+    "image": "/art/6810.webp",
     "nutrition": {}
   },
   {
@@ -2951,7 +2951,7 @@
     "artistDiscord": "Dury #6944",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6820.webp",
+    "image": "/art/6820.webp",
     "nutrition": {}
   },
   {
@@ -2964,7 +2964,7 @@
     "artistDiscord": "Lyra#5230",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6830.webp",
+    "image": "/art/6830.webp",
     "nutrition": {}
   },
   {
@@ -2977,7 +2977,7 @@
     "artistDiscord": "5jennie#1689",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6840.webp",
+    "image": "/art/6840.webp",
     "nutrition": {}
   },
   {
@@ -2990,7 +2990,7 @@
     "artistDiscord": "Bo#4351",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/6850.webp",
+    "image": "/art/6850.webp",
     "nutrition": {}
   },
   {
@@ -3003,7 +3003,7 @@
     "artistDiscord": "Loie#0920",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/6860.webp",
+    "image": "/art/6860.webp",
     "nutrition": {}
   },
   {
@@ -3016,7 +3016,7 @@
     "artistDiscord": "alexwykoff#7131",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6900.webp",
+    "image": "/art/6900.webp",
     "nutrition": {}
   },
   {
@@ -3029,7 +3029,7 @@
     "artistDiscord": "epicdylan",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/6910.webp",
+    "image": "/art/6910.webp",
     "nutrition": {}
   },
   {
@@ -3042,7 +3042,7 @@
     "artistDiscord": "SweetBamboo#7619",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7000.webp",
+    "image": "/art/7000.webp",
     "nutrition": {}
   },
   {
@@ -3055,7 +3055,7 @@
     "artistDiscord": "blacksun#3598",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/7010.webp",
+    "image": "/art/7010.webp",
     "nutrition": {}
   },
   {
@@ -3068,7 +3068,7 @@
     "artistDiscord": "Junseook MO#0047",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7020.webp",
+    "image": "/art/7020.webp",
     "nutrition": {}
   },
   {
@@ -3080,7 +3080,7 @@
     "artistTwitter": "spookikage",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7030.webp",
+    "image": "/art/7030.webp",
     "nutrition": {}
   },
   {
@@ -3093,7 +3093,7 @@
     "artistDiscord": "Alphabet Soup",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7040.webp",
+    "image": "/art/7040.webp",
     "nutrition": {}
   },
   {
@@ -3106,7 +3106,7 @@
     "artistDiscord": "V-#6666",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/7050.webp",
+    "image": "/art/7050.webp",
     "nutrition": {}
   },
   {
@@ -3119,7 +3119,7 @@
     "artistDiscord": "night0wl.eth#7511",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7060.webp",
+    "image": "/art/7060.webp",
     "nutrition": {}
   },
   {
@@ -3132,7 +3132,7 @@
     "artistDiscord": "08AM#6989",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7070.webp",
+    "image": "/art/7070.webp",
     "nutrition": {}
   },
   {
@@ -3145,7 +3145,7 @@
     "artistDiscord": "ask Cripsy",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7080.webp",
+    "image": "/art/7080.webp",
     "nutrition": {}
   },
   {
@@ -3158,7 +3158,7 @@
     "artistDiscord": "jeremiahallenwelch#5565",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/7100.webp",
+    "image": "/art/7100.webp",
     "nutrition": {}
   },
   {
@@ -3171,7 +3171,7 @@
     "artistDiscord": "hanrhyu#3118",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7110.webp",
+    "image": "/art/7110.webp",
     "nutrition": {}
   },
   {
@@ -3184,7 +3184,7 @@
     "artistDiscord": "Rub3nal3xand3r#6447",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7120.webp",
+    "image": "/art/7120.webp",
     "nutrition": {}
   },
   {
@@ -3197,7 +3197,7 @@
     "artistDiscord": "Don Button#2232",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7130.webp",
+    "image": "/art/7130.webp",
     "nutrition": {}
   },
   {
@@ -3210,7 +3210,7 @@
     "artistDiscord": "Ross #7169",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/7140.webp",
+    "image": "/art/7140.webp",
     "nutrition": {}
   },
   {
@@ -3223,7 +3223,7 @@
     "artistDiscord": "jaoqnclakjnvdlx#7919",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7150.webp",
+    "image": "/art/7150.webp",
     "nutrition": {}
   },
   {
@@ -3236,7 +3236,7 @@
     "artistDiscord": "RockStarZin#2602",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/7160.webp",
+    "image": "/art/7160.webp",
     "nutrition": {}
   },
   {
@@ -3248,7 +3248,7 @@
     "artistTwitter": "canoCloudX",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7170.webp",
+    "image": "/art/7170.webp",
     "nutrition": {}
   },
   {
@@ -3261,7 +3261,7 @@
     "artistDiscord": "NolaRook#9900",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7180.webp",
+    "image": "/art/7180.webp",
     "nutrition": {}
   },
   {
@@ -3274,7 +3274,7 @@
     "artistDiscord": "schwifty#6592",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7190.webp",
+    "image": "/art/7190.webp",
     "nutrition": {}
   },
   {
@@ -3286,7 +3286,7 @@
     "artistTwitter": "adultarts",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/7200.webp",
+    "image": "/art/7200.webp",
     "nutrition": {}
   },
   {
@@ -3299,7 +3299,7 @@
     "artistDiscord": "dongleehan#0550",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7210.webp",
+    "image": "/art/7210.webp",
     "nutrition": {}
   },
   {
@@ -3312,7 +3312,7 @@
     "artistDiscord": "Pizza Slyce",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/7220.webp",
+    "image": "/art/7220.webp",
     "nutrition": {}
   },
   {
@@ -3325,7 +3325,7 @@
     "artistDiscord": "Tessercat#7923",
     "rarity": "grail",
     "probability": 0.02,
-    "image": "/toppings/7230.webp",
+    "image": "/art/7230.webp",
     "nutrition": {}
   },
   {
@@ -3337,7 +3337,7 @@
     "artistTwitter": "KifScheuer",
     "rarity": "grail",
     "probability": 0.02,
-    "image": "/toppings/7240.webp",
+    "image": "/art/7240.webp",
     "nutrition": {}
   },
   {
@@ -3350,7 +3350,7 @@
     "artistDiscord": "MatthewStone#8258",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7250.webp",
+    "image": "/art/7250.webp",
     "nutrition": {}
   },
   {
@@ -3362,7 +3362,7 @@
     "artistTwitter": "jonburgerman",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7260.webp",
+    "image": "/art/7260.webp",
     "nutrition": {}
   },
   {
@@ -3374,7 +3374,7 @@
     "artistTwitter": "nancykilmer11",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7270.webp",
+    "image": "/art/7270.webp",
     "nutrition": {}
   },
   {
@@ -3387,7 +3387,7 @@
     "artistIG": "mattywardo",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7280.webp",
+    "image": "/art/7280.webp",
     "nutrition": {}
   },
   {
@@ -3399,7 +3399,7 @@
     "artistTwitter": "agent64209",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7290.webp",
+    "image": "/art/7290.webp",
     "nutrition": {}
   },
   {
@@ -3411,7 +3411,7 @@
     "artistTwitter": "6cellphones",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7300.webp",
+    "image": "/art/7300.webp",
     "nutrition": {}
   },
   {
@@ -3424,7 +3424,7 @@
     "artistDiscord": "mpwphx#5767",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7310.webp",
+    "image": "/art/7310.webp",
     "nutrition": {}
   },
   {
@@ -3437,7 +3437,7 @@
     "artistDiscord": "bakofsky#2813",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/7320.webp",
+    "image": "/art/7320.webp",
     "nutrition": {}
   },
   {
@@ -3450,7 +3450,7 @@
     "artistDiscord": "Rumie#1078",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7340.webp",
+    "image": "/art/7340.webp",
     "nutrition": {}
   },
   {
@@ -3463,7 +3463,7 @@
     "artistDiscord": "whtsrl#2441",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7350.webp",
+    "image": "/art/7350.webp",
     "nutrition": {}
   },
   {
@@ -3476,7 +3476,7 @@
     "artistDiscord": "NKGroup#6828",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/7360.webp",
+    "image": "/art/7360.webp",
     "nutrition": {}
   },
   {
@@ -3489,7 +3489,7 @@
     "artistDiscord": "ZISE (CASSETTE)#8796",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7370.webp",
+    "image": "/art/7370.webp",
     "nutrition": {}
   },
   {
@@ -3502,7 +3502,7 @@
     "artistDiscord": "plotski#9155",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7380.webp",
+    "image": "/art/7380.webp",
     "nutrition": {}
   },
   {
@@ -3515,7 +3515,7 @@
     "artistDiscord": "PikaPark#2553",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7390.webp",
+    "image": "/art/7390.webp",
     "nutrition": {}
   },
   {
@@ -3528,7 +3528,7 @@
     "artistDiscord": "bitsystarr#4539",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7400.webp",
+    "image": "/art/7400.webp",
     "nutrition": {}
   },
   {
@@ -3541,7 +3541,7 @@
     "artistDiscord": "333lulu777#2165",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/7410.webp",
+    "image": "/art/7410.webp",
     "nutrition": {}
   },
   {
@@ -3554,7 +3554,7 @@
     "artistDiscord": "sangsangpen#9599",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7420.webp",
+    "image": "/art/7420.webp",
     "nutrition": {}
   },
   {
@@ -3566,7 +3566,7 @@
     "artistTwitter": "DemetriEspinosa",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/7430.webp",
+    "image": "/art/7430.webp",
     "nutrition": {}
   },
   {
@@ -3578,7 +3578,7 @@
     "artistTwitter": "serviverman",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7440.webp",
+    "image": "/art/7440.webp",
     "nutrition": {}
   },
   {
@@ -3592,7 +3592,7 @@
     "artistIG": "instagram.com/_immortalangel",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7460.webp",
+    "image": "/art/7460.webp",
     "nutrition": {}
   },
   {
@@ -3605,7 +3605,7 @@
     "artistDiscord": "andyborewall",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7470.webp",
+    "image": "/art/7470.webp",
     "nutrition": {}
   },
   {
@@ -3618,7 +3618,7 @@
     "artistDiscord": "The Foot",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7480.webp",
+    "image": "/art/7480.webp",
     "nutrition": {}
   },
   {
@@ -3631,7 +3631,7 @@
     "artistDiscord": "Greemgreego#2394",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7490.webp",
+    "image": "/art/7490.webp",
     "nutrition": {}
   },
   {
@@ -3643,7 +3643,7 @@
     "artistTwitter": "woahboymusic",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7500.webp",
+    "image": "/art/7500.webp",
     "nutrition": {}
   },
   {
@@ -3655,7 +3655,7 @@
     "artistTwitter": "catherinexmoan",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/7510.webp",
+    "image": "/art/7510.webp",
     "nutrition": {}
   },
   {
@@ -3667,7 +3667,7 @@
     "artistTwitter": "ig: danielgordonstudio",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7520.webp",
+    "image": "/art/7520.webp",
     "nutrition": {
       "added_sugars": 5080
     }
@@ -3681,7 +3681,7 @@
     "artistTwitter": "toyboogers",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7530.webp",
+    "image": "/art/7530.webp",
     "nutrition": {}
   },
   {
@@ -3693,7 +3693,7 @@
     "artistTwitter": "sophie1337",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7540.webp",
+    "image": "/art/7540.webp",
     "nutrition": {
       "added_sugars": 3040
     }
@@ -3707,7 +3707,7 @@
     "artistTwitter": "sculpturings",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7550.webp",
+    "image": "/art/7550.webp",
     "nutrition": {}
   },
   {
@@ -3719,7 +3719,7 @@
     "artistTwitter": "DimsuroDS",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7560.webp",
+    "image": "/art/7560.webp",
     "nutrition": {
       "added_sugars": 6170
     }
@@ -3733,7 +3733,7 @@
     "artistTwitter": "a_tchuca",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7570.webp",
+    "image": "/art/7570.webp",
     "nutrition": {}
   },
   {
@@ -3745,7 +3745,7 @@
     "artistTwitter": "natebear",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7580.webp",
+    "image": "/art/7580.webp",
     "nutrition": {}
   },
   {
@@ -3757,7 +3757,7 @@
     "artistTwitter": "ig: braincabinet",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/7590.webp",
+    "image": "/art/7590.webp",
     "nutrition": {}
   },
   {
@@ -3769,7 +3769,7 @@
     "artistTwitter": "Sluttstrands",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/7600.webp",
+    "image": "/art/7600.webp",
     "nutrition": {
       "added_sugars": 5810
     }
@@ -3784,7 +3784,7 @@
     "artistDiscord": "Don Mafia",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/8160.webp",
+    "image": "/art/8160.webp",
     "nutrition": {}
   },
   {
@@ -3796,7 +3796,7 @@
     "artistTwitter": "MetaverseNext",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/8170.webp",
+    "image": "/art/8170.webp",
     "nutrition": {}
   },
   {
@@ -3808,7 +3808,7 @@
     "artistTwitter": "n/a",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/8180.webp",
+    "image": "/art/8180.webp",
     "nutrition": {}
   },
   {
@@ -3820,7 +3820,7 @@
     "artistTwitter": "Prtty_Plz",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/8190.webp",
+    "image": "/art/8190.webp",
     "nutrition": {}
   },
   {
@@ -3832,7 +3832,7 @@
     "artistTwitter": "n/a",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/8210.webp",
+    "image": "/art/8210.webp",
     "nutrition": {}
   },
   {
@@ -3844,7 +3844,7 @@
     "artistTwitter": "ig: aliendroog",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/8300.webp",
+    "image": "/art/8300.webp",
     "nutrition": {}
   },
   {
@@ -3857,7 +3857,7 @@
     "artistDiscord": "Vivi aka Voracity#5811",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/8310.webp",
+    "image": "/art/8310.webp",
     "nutrition": {}
   },
   {
@@ -3869,7 +3869,7 @@
     "artistTwitter": "GaryPalmerJr",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/8320.webp",
+    "image": "/art/8320.webp",
     "nutrition": {}
   },
   {
@@ -3882,7 +3882,7 @@
     "artistIG": "southfellini",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/8330.webp",
+    "image": "/art/8330.webp",
     "nutrition": {
       "added_sugars": 5270
     }
@@ -3897,7 +3897,7 @@
     "artistDiscord": "JoBl#1916",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/8340.webp",
+    "image": "/art/8340.webp",
     "nutrition": {}
   },
   {
@@ -3911,7 +3911,7 @@
     "artistIG": "https://www.instagram.com/allairemat/",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/8350.webp",
+    "image": "/art/8350.webp",
     "nutrition": {}
   },
   {
@@ -3923,7 +3923,7 @@
     "artistTwitter": "itsvondibaby",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/8540.webp",
+    "image": "/art/8540.webp",
     "nutrition": {}
   },
   {
@@ -3936,7 +3936,7 @@
     "artistDiscord": "EZalmighty#9997",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/8550.webp",
+    "image": "/art/8550.webp",
     "nutrition": {}
   },
   {
@@ -3949,7 +3949,7 @@
     "artistDiscord": "PETROLHEAD#0316",
     "rarity": "common",
     "probability": 1.68,
-    "image": "/toppings/8570.webp",
+    "image": "/art/8570.webp",
     "nutrition": {}
   },
   {
@@ -3962,7 +3962,7 @@
     "artistIG": "steve.laymon",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/8580.webp",
+    "image": "/art/8580.webp",
     "nutrition": {}
   },
   {
@@ -3974,7 +3974,7 @@
     "artistTwitter": "ig: ThatCraftyOne",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/8590.webp",
+    "image": "/art/8590.webp",
     "nutrition": {}
   },
   {
@@ -3987,7 +3987,7 @@
     "artistDiscord": "someguyonline#7692",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/9100.webp",
+    "image": "/art/9100.webp",
     "nutrition": {}
   },
   {
@@ -4000,7 +4000,7 @@
     "artistDiscord": "DIDIMX#8781",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/9110.webp",
+    "image": "/art/9110.webp",
     "nutrition": {}
   },
   {
@@ -4013,7 +4013,7 @@
     "artistDiscord": "JoannaAmy",
     "rarity": "epic",
     "probability": 0.04,
-    "image": "/toppings/9120.webp",
+    "image": "/art/9120.webp",
     "nutrition": {}
   },
   {
@@ -4026,7 +4026,7 @@
     "artistDiscord": "hallieberrry#7689",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/9130.webp",
+    "image": "/art/9130.webp",
     "nutrition": {}
   },
   {
@@ -4038,7 +4038,7 @@
     "artistTwitter": "blockchaincoll3",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/9140.webp",
+    "image": "/art/9140.webp",
     "nutrition": {}
   },
   {
@@ -4049,7 +4049,7 @@
     "artist": "Unknown",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/9160.webp",
+    "image": "/art/9160.webp",
     "nutrition": {}
   },
   {
@@ -4063,7 +4063,7 @@
     "artistIG": "https://www.instagram.com/swans_paintings_/",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/9170.webp",
+    "image": "/art/9170.webp",
     "nutrition": {}
   },
   {
@@ -4076,7 +4076,7 @@
     "artistIG": "https://www.instagram.com/swans_paintings_/",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/9170.webp",
+    "image": "/art/9170.webp",
     "nutrition": {}
   },
   {
@@ -4088,7 +4088,7 @@
     "artistTwitter": "kennycandid",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/9190.webp",
+    "image": "/art/9190.webp",
     "nutrition": {}
   },
   {
@@ -4101,7 +4101,7 @@
     "artistDiscord": "Tigerba30607517",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/9200.webp",
+    "image": "/art/9200.webp",
     "nutrition": {}
   },
   {
@@ -4113,7 +4113,7 @@
     "artistTwitter": "BFassberg",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/9210.webp",
+    "image": "/art/9210.webp",
     "nutrition": {}
   },
   {
@@ -4126,7 +4126,7 @@
     "artistDiscord": "CraigRussell15#5017",
     "rarity": "rare",
     "probability": 0.21,
-    "image": "/toppings/9220.webp",
+    "image": "/art/9220.webp",
     "nutrition": {}
   },
   {
@@ -4139,7 +4139,7 @@
     "artistDiscord": "lazylilack #2732",
     "rarity": "superrare",
     "probability": 0.08,
-    "image": "/toppings/9480.webp",
+    "image": "/art/9480.webp",
     "nutrition": {}
   },
   {
@@ -4151,7 +4151,7 @@
     "artistDiscord": "lazylilack #2732",
     "rarity": "grail",
     "probability": 0.02,
-    "image": "/toppings/9490.webp",
+    "image": "/art/9490.webp",
     "nutrition": {}
   },
   {
@@ -4164,7 +4164,7 @@
     "artistDiscord": "DogePizza#5243",
     "rarity": "grail",
     "probability": 0.02,
-    "image": "/toppings/9900.webp",
+    "image": "/art/9900.webp",
     "nutrition": {}
   },
   {
@@ -4177,7 +4177,7 @@
     "artistDiscord": "Tony Wild#9329",
     "rarity": "uncommon",
     "probability": 0.59,
-    "image": "/toppings/9910.webp",
+    "image": "/art/9910.webp",
     "nutrition": {}
   },
   {
@@ -4188,7 +4188,7 @@
     "artist": "Unknown",
     "rarity": "grail",
     "probability": 0.02,
-    "image": "/toppings/9920.webp",
+    "image": "/art/9920.webp",
     "nutrition": {}
   }
 ]
