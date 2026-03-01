@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAllToppings, getToppingBySku, slugify } from "@/lib/toppings";
+import { getImageUrl } from "@/lib/constants";
 import RarityBadge from "@/components/RarityBadge";
 import NutritionLabel from "@/components/NutritionLabel";
 import ToppingImage from "./ToppingImage";
@@ -128,7 +129,10 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
           </div>
 
           {/* Artist Section */}
-          <div className="rounded-xl bg-[#3d2b1f] p-4">
+          <div
+            className="rounded-xl bg-cover bg-center p-4"
+            style={{ backgroundImage: `url(${getImageUrl("/wood-bg.webp")})` }}
+          >
             <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#d4c5a9]">
               Artist
             </h2>

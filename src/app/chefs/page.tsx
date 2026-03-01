@@ -1,3 +1,4 @@
+import { getImageUrl } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -53,7 +54,8 @@ export default function ChefsPage() {
         {chefs.map((chef) => (
           <div
             key={chef.name}
-            className="rounded-xl border border-[#5c4033]/50 bg-[#3d2b1f] p-6 text-center"
+            className="rounded-xl border border-[#5c4033]/50 bg-cover bg-center p-6 text-center"
+            style={{ backgroundImage: `url(${getImageUrl("/wood-bg.webp")})` }}
           >
             <div className="mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full bg-[#5c4033] text-4xl">
               {chef.name[0]}

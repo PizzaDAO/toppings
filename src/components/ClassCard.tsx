@@ -36,7 +36,10 @@ function Thumbnail({ src, alt }: { src: string; alt: string }) {
 export default function ClassCard({ toppingClass }: ClassCardProps) {
   return (
     <Link href={`/class/${toppingClass.slug}`}>
-      <div className="group rounded-xl bg-[#3d2b1f] p-4 transition-all duration-200 hover:scale-[1.02] hover:bg-[#5c4033]">
+      <div
+        className="group rounded-xl bg-cover bg-center p-4 transition-all duration-200 hover:scale-[1.02] hover:brightness-110"
+        style={{ backgroundImage: `url(${getImageUrl("/wood-bg.webp")})` }}
+      >
         <div className="grid grid-cols-2 gap-2">
           {toppingClass.sampleImages.map((img, i) => (
             <Thumbnail key={i} src={img} alt={`${toppingClass.name} sample ${i + 1}`} />

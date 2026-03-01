@@ -82,7 +82,10 @@ export default function ToppingImage({
   return (
     <div className="w-full max-w-[600px]">
       {/* Main Image */}
-      <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-[#2a1f14]">
+      <div
+        className="relative aspect-square w-full overflow-hidden rounded-xl bg-cover bg-center"
+        style={{ backgroundImage: `url(${getImageUrl("/wood-bg.webp")})` }}
+      >
         {mainError ? (
           <div className="flex h-full w-full items-center justify-center text-8xl">
             🍕
