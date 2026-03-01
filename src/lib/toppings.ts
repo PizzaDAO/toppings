@@ -49,6 +49,14 @@ export function getClasses(): ToppingClass[] {
   return classes;
 }
 
+export function getToppingClasses(): ToppingClass[] {
+  return getClasses().filter((c) => c.name !== "Crust");
+}
+
+export function getCrustClass(): ToppingClass | undefined {
+  return getClasses().find((c) => c.name === "Crust");
+}
+
 export function getClassBySlug(slug: string): string | undefined {
   const classes = getClasses();
   const found = classes.find((c) => c.slug === slug);

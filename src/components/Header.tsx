@@ -58,6 +58,12 @@ export default function Header() {
             >
               Browse All
             </Link>
+            <Link
+              href="/chefs"
+              className="text-sm text-[#d4c5a9] transition-colors hover:text-white"
+            >
+              Chefs
+            </Link>
             <a
               href={SPREADSHEET_URL}
               target="_blank"

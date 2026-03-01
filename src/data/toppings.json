@@ -304,18 +304,6 @@
     "nutrition": {}
   },
   {
-    "sku": 3090,
-    "class": "Cheese",
-    "name": "Doge Cheese",
-    "description": "baaaahhhhhh",
-    "artist": "$DOG DAO",
-    "rarity": "epic",
-    "probability": 0.04,
-    "image": "/art/3090.webp",
-    "variants": [],
-    "nutrition": {}
-  },
-  {
     "sku": 3100,
     "class": "Cheese",
     "name": "Quattro Formaggi",
@@ -3425,18 +3413,6 @@
     "nutrition": {}
   },
   {
-    "sku": 6500,
-    "class": "Space",
-    "name": "Astronaut",
-    "description": "",
-    "artist": "Unknown",
-    "rarity": "epic",
-    "probability": 0.04,
-    "image": "/art/6500.webp",
-    "variants": [],
-    "nutrition": {}
-  },
-  {
     "sku": 6510,
     "class": "Space",
     "name": "NASA",
@@ -3655,6 +3631,20 @@
       "/art/6643.webp",
       "/art/6644.webp"
     ],
+    "nutrition": {}
+  },
+  {
+    "sku": 6650,
+    "class": "Drizzle",
+    "name": "Peanut Butter",
+    "description": "",
+    "artist": "Kenny Yee",
+    "artistTwitter": "MonkeyFactoryTv",
+    "artistDiscord": "MonkeyFactory#7562",
+    "rarity": "rare",
+    "probability": 0.21,
+    "image": "/art/6650.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -3903,6 +3893,19 @@
       "/art/6791.webp",
       "/art/6792.webp"
     ],
+    "nutrition": {}
+  },
+  {
+    "sku": 6800,
+    "class": "Snacks",
+    "name": "Peanut Chews",
+    "description": "",
+    "artist": "Sam",
+    "artistTwitter": "snack_man",
+    "rarity": "epic",
+    "probability": 0.04,
+    "image": "/art/6800.webp",
+    "variants": [],
     "nutrition": {}
   },
   {
@@ -4476,19 +4479,6 @@
       "/art/7231.webp",
       "/art/7232.webp"
     ],
-    "nutrition": {}
-  },
-  {
-    "sku": 7240,
-    "class": "Rare",
-    "name": "Hypodermic Needle",
-    "description": "",
-    "artist": "Kif Scheuer",
-    "artistTwitter": "KifScheuer",
-    "rarity": "grail",
-    "probability": 0.02,
-    "image": "/art/7240.webp",
-    "variants": [],
     "nutrition": {}
   },
   {
@@ -5489,35 +5479,6 @@
     "nutrition": {}
   },
   {
-    "sku": 9480,
-    "class": "Vegetable",
-    "name": "Cactus",
-    "description": "Roasted Prickly Pear Cactus with a slight taste of salt",
-    "artist": "Amber Tran",
-    "artistTwitter": "amberderm",
-    "artistDiscord": "lazylilack #2732",
-    "rarity": "superrare",
-    "probability": 0.08,
-    "image": "/art/9480.webp",
-    "variants": [],
-    "nutrition": {}
-  },
-  {
-    "sku": 9490,
-    "class": "Rare",
-    "name": "Omakase",
-    "description": "Roasted Prickly Pear Cactus with a slight taste of salt",
-    "artist": "Jed Berk",
-    "artistDiscord": "lazylilack #2732",
-    "rarity": "grail",
-    "probability": 0.02,
-    "image": "/art/9490.webp",
-    "variants": [
-      "/art/9491.webp"
-    ],
-    "nutrition": {}
-  },
-  {
     "sku": 9900,
     "class": "Rare",
     "name": "Swole Doge",
@@ -5550,18 +5511,6 @@
       "/art/9911.webp",
       "/art/9912.webp"
     ],
-    "nutrition": {}
-  },
-  {
-    "sku": 9920,
-    "class": "Rare",
-    "name": "Golden Hungy",
-    "description": "",
-    "artist": "Unknown",
-    "rarity": "grail",
-    "probability": 0.02,
-    "image": "/art/9920.webp",
-    "variants": [],
     "nutrition": {}
   }
 ]

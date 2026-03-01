@@ -1,9 +1,13 @@
-import { getAllToppings, getClasses } from "@/lib/toppings";
+import { getAllToppings, getToppingClasses, getCrustClass } from "@/lib/toppings";
 import ClassCard from "@/components/ClassCard";
 
 export default function Home() {
   const toppings = getAllToppings();
-  const classes = getClasses();
+  const toppingClasses = getToppingClasses();
+  const crustClass = getCrustClass();
+
+  const toppingCount = toppings.filter((t) => t.class !== "Crust").length;
+  const crustCount = crustClass?.count ?? 0;
 
   return (
     <div>
@@ -12,22 +16,32 @@ export default function Home() {
           Rare Pizzas Toppings
         </h1>
         <p className="mx-auto max-w-2xl text-lg text-[#d4c5a9]">
-          Browse {toppings.length} unique toppings across {classes.length}{" "}
-          classes. Each topping is a hand-crafted piece of digital art created by
-          artists from around the world.
+          Browse {toppingCount} unique toppings across {toppingClasses.length}{" "}
+          classes{crustCount > 0 && <> + {crustCount} crusts</>}. Each topping
+          is a hand-crafted piece of digital art created by artists from around
+          the world.
         </p>
       </section>
 
-      <section>
+      <section className="mb-12">
         <h2 className="mb-6 text-2xl font-semibold text-white">
           Topping Classes
         </h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {classes.map((c) => (
+          {toppingClasses.map((c) => (
             <ClassCard key={c.slug} toppingClass={c} />
           ))}
         </div>
       </section>
+
+      {crustClass && (
+        <section>
+          <h2 className="mb-6 text-2xl font-semibold text-white">Crusts</h2>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <ClassCard toppingClass={crustClass} />
+          </div>
+        </section>
+      )}
     </div>
   );
 }

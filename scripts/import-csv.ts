@@ -40,6 +40,9 @@ const NUTRITION_FIELDS = [
   "potassium", "riboflavin", "vitamin_d", "thiamin", "magnesium", "zinc",
 ];
 
+// Non-artist toppings below the main 314 rows — exclude from import
+const EXCLUDED_SKUS = new Set([3090, 6500, 7240, 9480, 9490, 9920]);
+
 // Drizzle SKUs that should be merged as alt art into their Sauce counterparts
 const DRIZZLE_MERGES: Record<number, number> = {
   9110: 2010, // Pesto Swirl -> Pesto
@@ -83,6 +86,7 @@ for (const row of records) {
   if (status !== "Accepted-DB") continue;
   const validRarities = ["common", "uncommon", "rare", "superrare", "epic", "grail"];
   if (!validRarities.includes(rarity)) continue;
+  if (EXCLUDED_SKUS.has(sku)) continue;
 
   // If this is a drizzle that should be merged, save its data for later
   if (DRIZZLE_MERGES[sku]) {
