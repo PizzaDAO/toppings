@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "The Kitchen Chefs | Rare Pizzas Toppings",
   description:
-    "Meet the chefs behind the Rare Pizzas kitchen — Head Chef Shrimp, Oven Chef Don Volare, Toppings Chef Cactus, and Sous Chef Jalapeno Peppers.",
+    "Meet the chefs behind the Rare Pizzas kitchen — Head Chef Shrimp, Oven Chef Don Volare, Toppings Chefs Cactus, Oscar Frog, Pizza Slyce, and Don Fingas, and Sous Chef Jalapeno Peppers.",
 };
 
 const chefs = [
@@ -18,6 +18,18 @@ const chefs = [
   {
     title: "Toppings Chef",
     name: "Cactus",
+  },
+  {
+    title: "Toppings Chef",
+    name: "Oscar Frog",
+  },
+  {
+    title: "Toppings Chef",
+    name: "Pizza Slyce",
+  },
+  {
+    title: "Toppings Chef",
+    name: "Don Fingas",
   },
   {
     title: "Sous Chef",

@@ -1,7 +1,18 @@
 import toppingsData from "@/data/toppings.json";
 import type { Topping, ToppingClass, Rarity } from "./types";
 
-const toppings = toppingsData as Topping[];
+const RARITY_ORDER: Record<string, number> = {
+  common: 0,
+  uncommon: 1,
+  rare: 2,
+  superrare: 3,
+  epic: 4,
+  grail: 5,
+};
+
+const toppings = (toppingsData as Topping[]).sort(
+  (a, b) => (RARITY_ORDER[a.rarity] ?? 99) - (RARITY_ORDER[b.rarity] ?? 99)
+);
 
 export function slugify(name: string): string {
   return name

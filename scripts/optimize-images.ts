@@ -10,13 +10,13 @@ const DATA_PATH = join(__dirname, "..", "src", "data", "toppings.json");
 const toppings = JSON.parse(readFileSync(DATA_PATH, "utf-8"));
 const skuSet = new Set<number>(toppings.map((t: { sku: number }) => t.sku));
 
-const sourceFiles = readdirSync(SOURCE_DIR).filter((f) => f.endsWith(".png"));
+const sourceFiles = readdirSync(SOURCE_DIR).filter((f) => f.toLowerCase().endsWith(".png"));
 
 // Build map: base topping SKU -> list of all variant files
 const variantMap = new Map<number, { fileSku: number; file: string }[]>();
 
 for (const file of sourceFiles) {
-  const match = file.match(/^(\d+)-(.+)\.png$/);
+  const match = file.match(/^(\d+)-(.+)\.png$/i);
   if (!match) continue;
   const fileSku = parseInt(match[1], 10);
   const name = match[2];
@@ -33,7 +33,7 @@ for (const file of sourceFiles) {
     if (skuSet.has(base)) {
       const baseFiles = sourceFiles.filter((f) => f.startsWith(`${base}-`));
       if (baseFiles.length > 0) {
-        const baseName = baseFiles[0].match(/^\d+-(.+)\.png$/)?.[1];
+        const baseName = baseFiles[0].match(/^\d+-(.+)\.png$/i)?.[1];
         if (baseName === name) {
           if (!variantMap.has(base)) variantMap.set(base, []);
           variantMap.get(base)!.push({ fileSku, file });

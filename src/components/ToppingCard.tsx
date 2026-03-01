@@ -16,8 +16,11 @@ export default function ToppingCard({ topping }: ToppingCardProps) {
 
   return (
     <Link href={`/topping/${topping.sku}`}>
-      <div className="group rounded-xl bg-[#3d2b1f] p-3 transition-all duration-200 hover:scale-[1.02] hover:bg-[#5c4033]">
-        <div className="relative aspect-square w-full overflow-hidden rounded-lg bg-[#2a1f14]">
+      <div
+        className="group rounded-xl bg-cover bg-center p-3 transition-all duration-200 hover:scale-[1.02] hover:brightness-110"
+        style={{ backgroundImage: `url(${getImageUrl("/wood-bg.webp")})` }}
+      >
+        <div className="relative aspect-square w-full overflow-hidden rounded-lg">
           {imgError ? (
             <div className="flex h-full w-full items-center justify-center bg-[#2a1f14] text-6xl">
               🍕
