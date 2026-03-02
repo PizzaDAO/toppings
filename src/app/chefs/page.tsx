@@ -1,4 +1,4 @@
-import { getImageUrl } from "@/lib/constants";
+import { getWoodTileUrl } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -51,11 +51,11 @@ export default function ChefsPage() {
       </section>
 
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {chefs.map((chef) => (
+        {chefs.map((chef, i) => (
           <div
             key={chef.name}
             className="rounded-xl border border-[#5c4033]/50 bg-cover bg-center p-6 text-center"
-            style={{ backgroundImage: `url(${getImageUrl("/wood-bg.webp")})` }}
+            style={{ backgroundImage: `url(${getWoodTileUrl(i)})` }}
           >
             <div className="mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full bg-[#5c4033] text-4xl">
               {chef.name[0]}

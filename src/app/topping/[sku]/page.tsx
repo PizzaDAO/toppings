@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAllToppings, getToppingBySku, slugify } from "@/lib/toppings";
-import { getImageUrl } from "@/lib/constants";
+import { getImageUrl, getWoodTileUrl } from "@/lib/constants";
 import RarityBadge from "@/components/RarityBadge";
 import NutritionLabel from "@/components/NutritionLabel";
 import ToppingImage from "./ToppingImage";
@@ -78,6 +78,7 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
           <ToppingImage
             image={topping.image}
             name={topping.name}
+            sku={topping.sku}
             variants={topping.variants}
             altArt={topping.altArt}
           />
@@ -131,7 +132,7 @@ export default async function ToppingPage({ params }: ToppingPageProps) {
           {/* Artist Section */}
           <div
             className="rounded-xl bg-cover bg-center p-4"
-            style={{ backgroundImage: `url(${getImageUrl("/wood-bg.webp")})` }}
+            style={{ backgroundImage: `url(${getWoodTileUrl(skuNum)})` }}
           >
             <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#d4c5a9]">
               Artist

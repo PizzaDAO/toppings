@@ -5,20 +5,22 @@ import Link from "next/link";
 import { useState } from "react";
 import RarityBadge from "./RarityBadge";
 import type { Topping } from "@/lib/types";
-import { getImageUrl } from "@/lib/constants";
+import { getImageUrl, getWoodTileUrl } from "@/lib/constants";
 
 interface ToppingCardProps {
   topping: Topping;
+  index?: number;
 }
 
-export default function ToppingCard({ topping }: ToppingCardProps) {
+export default function ToppingCard({ topping, index = 0 }: ToppingCardProps) {
   const [imgError, setImgError] = useState(false);
+  const tileIndex = index || (topping.sku % 24);
 
   return (
     <Link href={`/topping/${topping.sku}`}>
       <div
         className="group rounded-xl bg-cover bg-center p-3 transition-all duration-200 hover:scale-[1.02] hover:brightness-110"
-        style={{ backgroundImage: `url(${getImageUrl("/wood-bg.webp")})` }}
+        style={{ backgroundImage: `url(${getWoodTileUrl(tileIndex)})` }}
       >
         <div className="relative aspect-square w-full overflow-hidden rounded-lg">
           {imgError ? (

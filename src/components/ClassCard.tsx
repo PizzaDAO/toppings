@@ -4,10 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import type { ToppingClass } from "@/lib/types";
-import { getImageUrl } from "@/lib/constants";
+import { getImageUrl, getWoodTileUrl } from "@/lib/constants";
 
 interface ClassCardProps {
   toppingClass: ToppingClass;
+  index?: number;
 }
 
 function Thumbnail({ src, alt }: { src: string; alt: string }) {
@@ -33,12 +34,12 @@ function Thumbnail({ src, alt }: { src: string; alt: string }) {
   );
 }
 
-export default function ClassCard({ toppingClass }: ClassCardProps) {
+export default function ClassCard({ toppingClass, index = 0 }: ClassCardProps) {
   return (
     <Link href={`/class/${toppingClass.slug}`}>
       <div
         className="group rounded-xl bg-cover bg-center p-4 transition-all duration-200 hover:scale-[1.02] hover:brightness-110"
-        style={{ backgroundImage: `url(${getImageUrl("/wood-bg.webp")})` }}
+        style={{ backgroundImage: `url(${getWoodTileUrl(index)})` }}
       >
         <div className="grid grid-cols-2 gap-2">
           {toppingClass.sampleImages.map((img, i) => (

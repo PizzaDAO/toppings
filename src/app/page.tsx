@@ -28,8 +28,8 @@ export default function Home() {
           Topping Classes
         </h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {toppingClasses.map((c) => (
-            <ClassCard key={c.slug} toppingClass={c} />
+          {toppingClasses.map((c, i) => (
+            <ClassCard key={c.slug} toppingClass={c} index={i} />
           ))}
         </div>
       </section>
@@ -38,7 +38,7 @@ export default function Home() {
         <section>
           <h2 className="mb-6 text-2xl font-semibold text-white">Crusts</h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            <ClassCard toppingClass={crustClass} />
+            <ClassCard toppingClass={crustClass} index={17} />
           </div>
         </section>
       )}

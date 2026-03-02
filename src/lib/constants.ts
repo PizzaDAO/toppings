@@ -9,6 +9,13 @@ export function getImageUrl(path: string): string {
   return `${BASE_PATH}${path}`;
 }
 
+export const WOOD_TILE_COUNT = 24;
+
+export function getWoodTileUrl(index: number): string {
+  const tile = ((index % WOOD_TILE_COUNT) + WOOD_TILE_COUNT) % WOOD_TILE_COUNT;
+  return getImageUrl(`/wood/tile-${tile}.webp`);
+}
+
 export const RARITY_COLORS: Record<string, string> = {
   common: "#9CA3AF",
   uncommon: "#22C55E",

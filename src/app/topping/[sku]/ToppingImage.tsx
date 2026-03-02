@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState, useMemo } from "react";
-import { getImageUrl } from "@/lib/constants";
+import { getImageUrl, getWoodTileUrl } from "@/lib/constants";
 
 interface AltArtItem {
   image: string;
@@ -19,6 +19,7 @@ interface GalleryItem {
 interface ToppingImageProps {
   image: string;
   name: string;
+  sku?: number;
   variants?: string[];
   altArt?: AltArtItem[];
 }
@@ -26,6 +27,7 @@ interface ToppingImageProps {
 export default function ToppingImage({
   image,
   name,
+  sku = 0,
   variants = [],
   altArt = [],
 }: ToppingImageProps) {
@@ -84,7 +86,7 @@ export default function ToppingImage({
       {/* Main Image */}
       <div
         className="relative aspect-square w-full overflow-hidden rounded-xl bg-cover bg-center"
-        style={{ backgroundImage: `url(${getImageUrl("/wood-bg.webp")})` }}
+        style={{ backgroundImage: `url(${getWoodTileUrl(sku)})` }}
       >
         {mainError ? (
           <div className="flex h-full w-full items-center justify-center text-8xl">
