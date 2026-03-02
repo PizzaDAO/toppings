@@ -18,7 +18,7 @@ export default function Home() {
         <p className="mx-auto max-w-2xl text-lg text-[#7DD3E8]">
           Browse {toppingCount} unique toppings across {toppingClasses.length}{" "}
           classes{crustCount > 0 && <> + {crustCount} crusts</>}. Each topping
-          is a hand-crafted piece of digital art created by artists from around
+          is a hand-crafted piece of digital art created by a different artist from around
           the world.
         </p>
       </section>
