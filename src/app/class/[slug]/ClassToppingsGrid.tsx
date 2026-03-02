@@ -35,7 +35,7 @@ function ClassToppingsGridInner({ toppings }: ClassToppingsGridProps) {
   return (
     <>
       <FilterBar />
-      <p className="mb-4 text-sm text-[#d4c5a9]">
+      <p className="mb-4 text-sm text-[#7DD3E8]">
         Showing {filtered.length} of {toppings.length} toppings
       </p>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

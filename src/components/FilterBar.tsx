@@ -47,7 +47,7 @@ export default function FilterBar({ showClassFilter = false }: FilterBarProps) {
         <select
           value={currentClass}
           onChange={(e) => updateParams("class", e.target.value)}
-          className="rounded-lg border border-[#5c4033] bg-[#2a1f14] px-3 py-2 text-sm text-[#d4c5a9] outline-none focus:border-[#F97316]"
+          className="rounded-lg border border-[#333] bg-[#111] px-3 py-2 text-sm text-[#7DD3E8] outline-none focus:border-[#FFE135]"
         >
           <option value="">All Classes</option>
           {classes.map((c) => (
@@ -61,7 +61,7 @@ export default function FilterBar({ showClassFilter = false }: FilterBarProps) {
       <select
         value={currentRarity}
         onChange={(e) => updateParams("rarity", e.target.value)}
-        className="rounded-lg border border-[#5c4033] bg-[#2a1f14] px-3 py-2 text-sm text-[#d4c5a9] outline-none focus:border-[#F97316]"
+        className="rounded-lg border border-[#333] bg-[#111] px-3 py-2 text-sm text-[#7DD3E8] outline-none focus:border-[#FFE135]"
       >
         <option value="">All Rarities</option>
         {rarities.map((r) => (
@@ -76,7 +76,7 @@ export default function FilterBar({ showClassFilter = false }: FilterBarProps) {
         placeholder="Search by name..."
         value={currentSearch}
         onChange={(e) => updateParams("search", e.target.value)}
-        className="rounded-lg border border-[#5c4033] bg-[#2a1f14] px-3 py-2 text-sm text-[#d4c5a9] outline-none placeholder:text-[#a89878] focus:border-[#F97316]"
+        className="rounded-lg border border-[#333] bg-[#111] px-3 py-2 text-sm text-[#7DD3E8] outline-none placeholder:text-[#555] focus:border-[#FFE135]"
       />
     </div>
   );

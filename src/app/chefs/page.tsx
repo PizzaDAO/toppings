@@ -45,7 +45,7 @@ export default function ChefsPage() {
         <h1 className="mb-4 text-4xl font-bold tracking-tight text-white sm:text-5xl">
           The Kitchen
         </h1>
-        <p className="mx-auto max-w-2xl text-lg text-[#d4c5a9]">
+        <p className="mx-auto max-w-2xl text-lg text-[#7DD3E8]">
           Meet the chefs who run the Rare Pizzas kitchen.
         </p>
       </section>
@@ -54,13 +54,13 @@ export default function ChefsPage() {
         {chefs.map((chef, i) => (
           <div
             key={chef.name}
-            className="rounded-xl border border-[#5c4033]/50 bg-cover bg-center p-6 text-center"
+            className="rounded-xl border border-[#333]/50 bg-cover bg-center p-6 text-center"
             style={{ backgroundImage: `url(${getWoodTileUrl(i)})` }}
           >
-            <div className="mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full bg-[#5c4033] text-4xl">
+            <div className="mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full bg-[#E85D5D] text-4xl">
               {chef.name[0]}
             </div>
-            <p className="text-sm font-medium uppercase tracking-wider text-[#F97316]">
+            <p className="text-sm font-medium uppercase tracking-wider text-[#FFE135]">
               {chef.title}
             </p>
             <h2 className="mt-1 text-xl font-bold text-white">{chef.name}</h2>

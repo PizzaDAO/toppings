@@ -24,7 +24,7 @@ export default function ToppingCard({ topping, index = 0 }: ToppingCardProps) {
       >
         <div className="relative aspect-square w-full overflow-hidden rounded-lg">
           {imgError ? (
-            <div className="flex h-full w-full items-center justify-center bg-[#2a1f14] text-6xl">
+            <div className="flex h-full w-full items-center justify-center bg-[#111] text-6xl">
               🍕
             </div>
           ) : (
@@ -42,7 +42,7 @@ export default function ToppingCard({ topping, index = 0 }: ToppingCardProps) {
           <h3 className="truncate text-sm font-semibold text-white">
             {topping.name}
           </h3>
-          <p className="truncate text-xs text-[#d4c5a9]">{topping.artist}</p>
+          <p className="truncate text-xs text-[#7DD3E8]">{topping.artist}</p>
           <RarityBadge rarity={topping.rarity} />
         </div>
       </div>

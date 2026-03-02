@@ -1,24 +1,15 @@
 "use client";
 
+import Link from "next/link";
 import { useAccount, useReadContract } from "wagmi";
-import { RARE_PIZZAS_CONTRACT } from "@/lib/constants";
-
-const BALANCE_OF_ABI = [
-  {
-    inputs: [{ name: "owner", type: "address" }],
-    name: "balanceOf",
-    outputs: [{ name: "", type: "uint256" }],
-    stateMutability: "view",
-    type: "function",
-  },
-] as const;
+import { RARE_PIZZAS_CONTRACT, ERC721_ENUMERABLE_ABI } from "@/lib/constants";
 
 export default function WalletStatus() {
   const { address, isConnected } = useAccount();
 
   const { data: balance } = useReadContract({
     address: RARE_PIZZAS_CONTRACT,
-    abi: BALANCE_OF_ABI,
+    abi: ERC721_ENUMERABLE_ABI,
     functionName: "balanceOf",
     args: address ? [address] : undefined,
     query: {
@@ -31,8 +22,10 @@ export default function WalletStatus() {
   }
 
   return (
-    <span className="inline-flex items-center gap-1 rounded-full bg-[#F97316]/20 px-3 py-1 text-sm font-medium text-[#F97316]">
-      🍕 {balance.toString()} Rare Pizzas
-    </span>
+    <Link href="/my-toppings">
+      <span className="inline-flex items-center gap-1 rounded-full bg-[#FFE135]/20 px-3 py-1 text-sm font-medium text-[#FFE135] transition-colors hover:bg-[#FFE135]/30">
+        &#127829; {balance.toString()} Rare Pizzas
+      </span>
+    </Link>
   );
 }

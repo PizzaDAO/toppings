@@ -23,3 +23,28 @@ export interface ToppingClass {
   count: number;
   sampleImages: string[];
 }
+
+export interface OwnedTopping {
+  topping: Topping;
+  count: number;
+  tokenIds: number[];
+}
+
+export interface NFTAttribute {
+  trait_type: string;
+  value: string;
+}
+
+export interface NFTMetadata {
+  name?: string;
+  description?: string;
+  image?: string;
+  attributes?: NFTAttribute[];
+}
+
+export interface PizzaTokenData {
+  tokenId: number;
+  metadata: NFTMetadata | null;
+  toppings: Topping[];
+  unmatchedTraits: NFTAttribute[];
+}

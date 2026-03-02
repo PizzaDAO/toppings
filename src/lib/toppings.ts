@@ -1,5 +1,6 @@
 import toppingsData from "@/data/toppings.json";
-import type { Topping, ToppingClass, Rarity } from "./types";
+import type { Topping, ToppingClass, Rarity, NFTAttribute } from "./types";
+import { EXCLUDED_TRAIT_TYPES } from "./constants";
 
 const RARITY_ORDER: Record<string, number> = {
   common: 0,
@@ -80,4 +81,57 @@ export function getRarities(): Rarity[] {
     seen.add(t.rarity);
   }
   return Array.from(seen);
+}
+
+// --- Topping lookup for NFT metadata matching ---
+
+type ToppingLookup = Map<string, Topping>;
+
+let lookupCache: ToppingLookup | null = null;
+
+function makeKey(className: string, name: string): string {
+  return `${className.toLowerCase().trim()}:${name.toLowerCase().trim()}`;
+}
+
+export function buildToppingLookup(): ToppingLookup {
+  if (lookupCache) return lookupCache;
+
+  const lookup: ToppingLookup = new Map();
+
+  for (const t of toppings) {
+    // Exact normalized key
+    lookup.set(makeKey(t.class, t.name), t);
+  }
+
+  lookupCache = lookup;
+  return lookup;
+}
+
+export function matchTopping(
+  attribute: NFTAttribute
+): Topping | null {
+  if (EXCLUDED_TRAIT_TYPES.has(attribute.trait_type)) {
+    return null;
+  }
+
+  const lookup = buildToppingLookup();
+  const className = attribute.trait_type;
+  const name = attribute.value;
+
+  // Tier 1: Exact normalized match
+  const exactKey = makeKey(className, name);
+  const exact = lookup.get(exactKey);
+  if (exact) return exact;
+
+  // Tier 2: Partial / contains match within the same class
+  const lowerName = name.toLowerCase().trim();
+  for (const t of toppings) {
+    if (t.class.toLowerCase() !== className.toLowerCase()) continue;
+    const tName = t.name.toLowerCase();
+    if (tName.includes(lowerName) || lowerName.includes(tName)) {
+      return t;
+    }
+  }
+
+  return null;
 }

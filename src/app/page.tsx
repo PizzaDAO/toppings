@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="mb-4 text-4xl font-bold tracking-tight text-white sm:text-5xl">
           Rare Pizzas Toppings
         </h1>
-        <p className="mx-auto max-w-2xl text-lg text-[#d4c5a9]">
+        <p className="mx-auto max-w-2xl text-lg text-[#7DD3E8]">
           Browse {toppingCount} unique toppings across {toppingClasses.length}{" "}
           classes{crustCount > 0 && <> + {crustCount} crusts</>}. Each topping
           is a hand-crafted piece of digital art created by artists from around

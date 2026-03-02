@@ -28,8 +28,8 @@ export default async function ClassPage({ params }: ClassPageProps) {
 
   return (
     <div>
-      <nav className="mb-6 text-sm text-[#d4c5a9]">
-        <Link href="/" className="transition-colors hover:text-[#F97316]">
+      <nav className="mb-6 text-sm text-[#7DD3E8]">
+        <Link href="/" className="transition-colors hover:text-[#FFE135]">
           Home
         </Link>
         <span className="mx-2">/</span>
@@ -38,7 +38,7 @@ export default async function ClassPage({ params }: ClassPageProps) {
 
       <div className="mb-8">
         <h1 className="mb-2 text-3xl font-bold text-white">{className}</h1>
-        <p className="text-[#d4c5a9]">{toppings.length} toppings</p>
+        <p className="text-[#7DD3E8]">{toppings.length} toppings</p>
       </div>
 
       <ClassToppingsGrid toppings={toppings} />

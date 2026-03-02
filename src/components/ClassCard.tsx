@@ -16,7 +16,7 @@ function Thumbnail({ src, alt }: { src: string; alt: string }) {
 
   if (error) {
     return (
-      <div className="flex aspect-square w-full items-center justify-center rounded-md bg-[#2a1f14] text-lg">
+      <div className="flex aspect-square w-full items-center justify-center rounded-md bg-[#111] text-lg">
         🍕
       </div>
     );
@@ -50,7 +50,7 @@ export default function ClassCard({ toppingClass, index = 0 }: ClassCardProps) {
           <h3 className="text-base font-semibold text-white">
             {toppingClass.name}
           </h3>
-          <p className="text-sm text-[#d4c5a9]">
+          <p className="text-sm text-[#7DD3E8]">
             {toppingClass.count} toppings
           </p>
         </div>

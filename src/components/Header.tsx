@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import dynamic from "next/dynamic";
+import { useAccount } from "wagmi";
 import { SPREADSHEET_URL } from "@/lib/constants";
 import WalletStatus from "./WalletStatus";
 
@@ -35,40 +37,57 @@ function SpreadsheetIcon() {
 }
 
 export default function Header() {
+  const { isConnected } = useAccount();
+
   return (
-    <header className="sticky top-0 z-50 border-b border-[#5c4033]/50 bg-[#2a1f14]/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-[#FFE135]/20 bg-black/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <div className="flex items-center gap-6">
           <Link
             href="/"
-            className="text-lg font-bold text-white transition-colors hover:text-[#F97316]"
+            className="flex items-center gap-2 transition-opacity hover:opacity-80"
           >
-            Rare Pizzas Toppings
+            <Image
+              src="/pizzadao-logo.svg"
+              alt="PizzaDAO"
+              width={140}
+              height={32}
+              className="h-8 w-auto"
+              priority
+            />
           </Link>
           <nav className="hidden items-center gap-4 sm:flex">
             <Link
               href="/"
-              className="text-sm text-[#d4c5a9] transition-colors hover:text-white"
+              className="text-sm text-[#7DD3E8] transition-colors hover:text-white"
             >
               Home
             </Link>
             <Link
               href="/browse"
-              className="text-sm text-[#d4c5a9] transition-colors hover:text-white"
+              className="text-sm text-[#7DD3E8] transition-colors hover:text-white"
             >
               Browse All
             </Link>
             <Link
               href="/chefs"
-              className="text-sm text-[#d4c5a9] transition-colors hover:text-white"
+              className="text-sm text-[#7DD3E8] transition-colors hover:text-white"
             >
               Chefs
             </Link>
+            {isConnected && (
+              <Link
+                href="/my-toppings"
+                className="text-sm text-[#FFE135] transition-colors hover:text-white"
+              >
+                My Toppings
+              </Link>
+            )}
             <a
               href={SPREADSHEET_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 text-sm text-[#d4c5a9] transition-colors hover:text-white"
+              className="flex items-center gap-1 text-sm text-[#7DD3E8] transition-colors hover:text-white"
               title="View Spreadsheet"
             >
               <SpreadsheetIcon />

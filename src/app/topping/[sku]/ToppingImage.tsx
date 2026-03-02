@@ -108,15 +108,15 @@ export default function ToppingImage({
       {/* Version Label */}
       {hasGallery && (
         <div className="mt-3 text-center">
-          <p className="text-sm font-medium text-[#d4c5a9]">
+          <p className="text-sm font-medium text-[#7DD3E8]">
             Version {selectedIndex + 1} of {galleryItems.length}
             {currentItem.isAltArt && (
-              <span className="ml-2 text-[#F97316]">
+              <span className="ml-2 text-[#FFE135]">
                 {currentItem.label}
               </span>
             )}
             {!currentItem.isAltArt && selectedIndex > 0 && (
-              <span className="ml-2 text-[#d4c5a9]/70">
+              <span className="ml-2 text-[#7DD3E8]/70">
                 {currentItem.label}
               </span>
             )}
@@ -133,12 +133,12 @@ export default function ToppingImage({
               onClick={() => handleSelect(i)}
               className={`relative flex-shrink-0 overflow-hidden rounded-lg transition-all duration-150 ${
                 i === selectedIndex
-                  ? "ring-2 ring-[#F97316] ring-offset-2 ring-offset-[#638596]"
+                  ? "ring-2 ring-[#FFE135] ring-offset-2 ring-offset-black"
                   : "opacity-60 hover:opacity-100"
               }`}
               title={item.label}
             >
-              <div className="h-16 w-16 bg-[#2a1f14]">
+              <div className="h-16 w-16 bg-[#111]">
                 {thumbErrors.has(i) ? (
                   <div className="flex h-full w-full items-center justify-center text-xl">
                     🍕
@@ -155,7 +155,7 @@ export default function ToppingImage({
                 )}
               </div>
               {item.isAltArt && (
-                <div className="absolute bottom-0 left-0 right-0 bg-[#F97316]/80 px-1 py-0.5 text-center text-[8px] font-bold text-white">
+                <div className="absolute bottom-0 left-0 right-0 bg-[#FFE135]/80 px-1 py-0.5 text-center text-[8px] font-bold text-black">
                   ALT
                 </div>
               )}

@@ -16,6 +16,41 @@ export function getWoodTileUrl(index: number): string {
   return getImageUrl(`/wood/tile-${tile}.webp`);
 }
 
+export const ERC721_ENUMERABLE_ABI = [
+  {
+    inputs: [{ name: "owner", type: "address" }],
+    name: "balanceOf",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [
+      { name: "owner", type: "address" },
+      { name: "index", type: "uint256" },
+    ],
+    name: "tokenOfOwnerByIndex",
+    outputs: [{ name: "", type: "uint256" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [{ name: "tokenId", type: "uint256" }],
+    name: "tokenURI",
+    outputs: [{ name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+] as const;
+
+export const EXCLUDED_TRAIT_TYPES = new Set([
+  "Pizza Recipe",
+  "Box",
+  "Paper",
+]);
+
+export const IPFS_GATEWAY = "https://ipfs.io/ipfs/";
+
 export const RARITY_COLORS: Record<string, string> = {
   common: "#9CA3AF",
   uncommon: "#22C55E",
