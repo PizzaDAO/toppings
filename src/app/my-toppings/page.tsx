@@ -130,9 +130,17 @@ function OwnedToppingCard({
               style={{ backgroundImage: `url(${getWoodTileUrl(tileIndex)})` }}
             >
               {owned.count > 1 && (
-                <div className="absolute right-2 top-2 z-10 flex h-7 min-w-7 items-center justify-center rounded-full bg-[#FFE135] px-2 text-xs font-bold text-black shadow-lg">
+                <button
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    setIsFlipped(true);
+                  }}
+                  className="absolute right-2 top-2 z-10 flex h-7 min-w-7 items-center justify-center rounded-full bg-[#FFE135] px-2 text-xs font-bold text-black shadow-lg transition-transform hover:scale-110"
+                  aria-label="Show pizzas with this topping"
+                >
                   x{owned.count}
-                </div>
+                </button>
               )}
               <div className="relative aspect-square w-full overflow-hidden rounded-lg">
                 {imgError ? (
@@ -161,18 +169,6 @@ function OwnedToppingCard({
               </div>
             </div>
           </Link>
-          <button
-            onClick={() => setIsFlipped(true)}
-            className="absolute bottom-3 right-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-black/60 text-white/80 transition-colors hover:bg-black/80 hover:text-white"
-            aria-label="Show pizzas with this topping"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M8 3H5a2 2 0 0 0-2 2v3" />
-              <path d="M21 8V5a2 2 0 0 0-2-2h-3" />
-              <path d="M3 16v3a2 2 0 0 0 2 2h3" />
-              <path d="M16 21h3a2 2 0 0 0 2-2v-3" />
-            </svg>
-          </button>
         </div>
 
         {/* Back face */}
