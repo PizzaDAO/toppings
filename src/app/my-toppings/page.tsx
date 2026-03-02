@@ -297,6 +297,22 @@ export default function MyToppingsPage() {
         <LoadingSkeleton loaded={loadedPizzas} total={totalPizzas} />
       )}
 
+      {!isLoadingMetadata && ownedToppings.length === 0 && totalPizzas > 0 && (
+        <div className="rounded-xl bg-[#111] p-6">
+          <p className="text-[#7DD3E8]">
+            Found {totalPizzas} pizza{totalPizzas !== 1 ? "s" : ""} but could
+            not load topping data.{" "}
+            {error && <span className="text-red-400">{error}</span>}
+          </p>
+          <button
+            onClick={() => window.location.reload()}
+            className="mt-3 rounded-lg bg-[#FFE135] px-4 py-2 text-sm font-medium text-black hover:bg-[#FFE135]/80"
+          >
+            Retry
+          </button>
+        </div>
+      )}
+
       {!isLoadingMetadata && ownedToppings.length > 0 && (
         <>
           {/* Summary */}

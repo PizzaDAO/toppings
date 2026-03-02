@@ -20,9 +20,15 @@ import type {
 const MAX_CONCURRENT_FETCHES = 5;
 const SESSION_STORAGE_PREFIX = "rp-meta-";
 
-function ipfsToHttp(uri: string): string {
+const IPFS_GATEWAYS = [
+  "https://dweb.link/ipfs/",
+  "https://cloudflare-ipfs.com/ipfs/",
+  "https://ipfs.io/ipfs/",
+];
+
+function ipfsToHttp(uri: string, gateway: string = IPFS_GATEWAYS[0]): string {
   if (uri.startsWith("ipfs://")) {
-    return `${IPFS_GATEWAY}${uri.slice(7)}`;
+    return `${gateway}${uri.slice(7)}`;
   }
   return uri;
 }
@@ -54,19 +60,21 @@ async function fetchMetadataWithRetry(
   uri: string,
   retries = 2
 ): Promise<NFTMetadata> {
-  const url = ipfsToHttp(uri);
-  for (let attempt = 0; attempt <= retries; attempt++) {
-    try {
-      const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return (await res.json()) as NFTMetadata;
-    } catch (err) {
-      if (attempt === retries) throw err;
-      // Wait briefly before retry
-      await new Promise((r) => setTimeout(r, 1000 * (attempt + 1)));
+  // Try each gateway in order
+  for (const gateway of IPFS_GATEWAYS) {
+    const url = ipfsToHttp(uri, gateway);
+    for (let attempt = 0; attempt <= retries; attempt++) {
+      try {
+        const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return (await res.json()) as NFTMetadata;
+      } catch (err) {
+        if (attempt === retries) break; // try next gateway
+        await new Promise((r) => setTimeout(r, 1000 * (attempt + 1)));
+      }
     }
   }
-  throw new Error("Unreachable");
+  throw new Error("All IPFS gateways failed");
 }
 
 /** Concurrency-limited batch fetch */
@@ -191,6 +199,7 @@ export function useWalletToppings(): UseWalletToppingsReturn {
     error: tokenIdsError,
   } = useReadContracts({
     contracts: tokenIndexContracts,
+    batchSize: 0,
     query: {
       enabled: tokenIndexContracts.length > 0,
     },
@@ -220,6 +229,7 @@ export function useWalletToppings(): UseWalletToppingsReturn {
     error: uriError,
   } = useReadContracts({
     contracts: tokenURIContracts,
+    batchSize: 0,
     query: {
       enabled: tokenURIContracts.length > 0,
     },

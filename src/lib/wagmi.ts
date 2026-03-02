@@ -7,7 +7,9 @@ export const config = getDefaultConfig({
   projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID || "placeholder",
   chains: [mainnet],
   transports: {
-    [mainnet.id]: http("https://eth.llamarpc.com"),
+    [mainnet.id]: http("https://eth.llamarpc.com", {
+      batch: false,
+    }),
   },
   ssr: true,
 });
