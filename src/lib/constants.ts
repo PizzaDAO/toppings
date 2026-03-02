@@ -1,5 +1,7 @@
 export const RARE_PIZZAS_CONTRACT = "0xe6616436ff001fe827e37c7fad100f531d0935f0" as const;
 
+export const OPENSEA_BASE_URL = `https://opensea.io/assets/ethereum/${RARE_PIZZAS_CONTRACT}`;
+
 export const SPREADSHEET_URL =
   "https://docs.google.com/spreadsheets/d/1xN149zkgSXPfJhDwQrIzlMzcU9gB--ihdoO_XJXCqf0/edit?gid=0#gid=0";
 

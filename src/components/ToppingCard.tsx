@@ -6,6 +6,7 @@ import { useState } from "react";
 import RarityBadge from "./RarityBadge";
 import type { Topping } from "@/lib/types";
 import { getImageUrl, getWoodTileUrl } from "@/lib/constants";
+import { useOwnedToppingsMap } from "@/hooks/useOwnedToppingsMap";
 
 interface ToppingCardProps {
   topping: Topping;
@@ -15,13 +16,20 @@ interface ToppingCardProps {
 export default function ToppingCard({ topping, index = 0 }: ToppingCardProps) {
   const [imgError, setImgError] = useState(false);
   const tileIndex = index || (topping.sku % 24);
+  const ownedMap = useOwnedToppingsMap();
+  const owned = ownedMap.get(topping.sku);
 
   return (
     <Link href={`/topping/${topping.sku}`}>
       <div
-        className="group rounded-xl bg-cover bg-center p-3 transition-all duration-200 hover:scale-[1.02] hover:brightness-110"
+        className="group relative rounded-xl bg-cover bg-center p-3 transition-all duration-200 hover:scale-[1.02] hover:brightness-110"
         style={{ backgroundImage: `url(${getWoodTileUrl(tileIndex)})` }}
       >
+        {owned && owned.count > 0 && (
+          <div className="absolute right-2 top-2 z-10 flex h-7 min-w-7 items-center justify-center rounded-full bg-[#FFE135] px-2 text-xs font-bold text-black shadow-lg">
+            x{owned.count}
+          </div>
+        )}
         <div className="relative aspect-square w-full overflow-hidden rounded-lg">
           {imgError ? (
             <div className="flex h-full w-full items-center justify-center bg-[#111] text-6xl">

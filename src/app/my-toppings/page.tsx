@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useAccount } from "wagmi";
 import { useWalletToppings } from "@/hooks/useWalletToppings";
 import { getClasses, getRarities } from "@/lib/toppings";
-import { getImageUrl, getWoodTileUrl, RARITY_COLORS } from "@/lib/constants";
+import { getImageUrl, getWoodTileUrl, RARITY_COLORS, OPENSEA_BASE_URL } from "@/lib/constants";
 import RarityBadge from "@/components/RarityBadge";
 import type { OwnedTopping } from "@/lib/types";
 
@@ -107,46 +107,123 @@ function OwnedToppingCard({
   index: number;
 }) {
   const [imgError, setImgError] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
   const tileIndex = index || (owned.topping.sku % 24);
 
   return (
-    <Link href={`/topping/${owned.topping.sku}`}>
+    <div
+      className="group"
+      style={{ perspective: "1000px" }}
+    >
       <div
-        className="group relative rounded-xl bg-cover bg-center p-3 transition-all duration-200 hover:scale-[1.02] hover:brightness-110"
-        style={{ backgroundImage: `url(${getWoodTileUrl(tileIndex)})` }}
+        className="relative transition-transform duration-500"
+        style={{
+          transformStyle: "preserve-3d",
+          transform: isFlipped ? "rotateY(180deg)" : "rotateY(0deg)",
+        }}
       >
-        {owned.count > 1 && (
-          <div className="absolute right-2 top-2 z-10 flex h-7 min-w-7 items-center justify-center rounded-full bg-[#FFE135] px-2 text-xs font-bold text-black shadow-lg">
-            x{owned.count}
-          </div>
-        )}
-        <div className="relative aspect-square w-full overflow-hidden rounded-lg">
-          {imgError ? (
-            <div className="flex h-full w-full items-center justify-center bg-[#111] text-6xl">
-              <span role="img" aria-label="pizza">&#127829;</span>
+        {/* Front face */}
+        <div style={{ backfaceVisibility: "hidden" }}>
+          <Link href={`/topping/${owned.topping.sku}`}>
+            <div
+              className="relative rounded-xl bg-cover bg-center p-3 transition-all duration-200 hover:scale-[1.02] hover:brightness-110"
+              style={{ backgroundImage: `url(${getWoodTileUrl(tileIndex)})` }}
+            >
+              {owned.count > 1 && (
+                <div className="absolute right-2 top-2 z-10 flex h-7 min-w-7 items-center justify-center rounded-full bg-[#FFE135] px-2 text-xs font-bold text-black shadow-lg">
+                  x{owned.count}
+                </div>
+              )}
+              <div className="relative aspect-square w-full overflow-hidden rounded-lg">
+                {imgError ? (
+                  <div className="flex h-full w-full items-center justify-center bg-[#111] text-6xl">
+                    <span role="img" aria-label="pizza">&#127829;</span>
+                  </div>
+                ) : (
+                  <Image
+                    src={getImageUrl(owned.topping.image)}
+                    alt={owned.topping.name}
+                    width={400}
+                    height={400}
+                    className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-105"
+                    onError={() => setImgError(true)}
+                  />
+                )}
+              </div>
+              <div className="mt-3 space-y-2">
+                <h3 className="truncate text-sm font-semibold text-white">
+                  {owned.topping.name}
+                </h3>
+                <p className="truncate text-xs text-[#7DD3E8]">
+                  {owned.topping.class}
+                </p>
+                <RarityBadge rarity={owned.topping.rarity} />
+              </div>
             </div>
-          ) : (
-            <Image
-              src={getImageUrl(owned.topping.image)}
-              alt={owned.topping.name}
-              width={400}
-              height={400}
-              className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-105"
-              onError={() => setImgError(true)}
-            />
-          )}
+          </Link>
+          <button
+            onClick={() => setIsFlipped(true)}
+            className="absolute bottom-3 right-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-black/60 text-white/80 transition-colors hover:bg-black/80 hover:text-white"
+            aria-label="Show pizzas with this topping"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M8 3H5a2 2 0 0 0-2 2v3" />
+              <path d="M21 8V5a2 2 0 0 0-2-2h-3" />
+              <path d="M3 16v3a2 2 0 0 0 2 2h3" />
+              <path d="M16 21h3a2 2 0 0 0 2-2v-3" />
+            </svg>
+          </button>
         </div>
-        <div className="mt-3 space-y-2">
-          <h3 className="truncate text-sm font-semibold text-white">
-            {owned.topping.name}
-          </h3>
-          <p className="truncate text-xs text-[#7DD3E8]">
-            {owned.topping.class}
-          </p>
-          <RarityBadge rarity={owned.topping.rarity} />
+
+        {/* Back face */}
+        <div
+          className="absolute inset-0 rounded-xl bg-cover bg-center p-4"
+          style={{
+            backfaceVisibility: "hidden",
+            transform: "rotateY(180deg)",
+            backgroundImage: `url(${getWoodTileUrl(tileIndex)})`,
+          }}
+        >
+          <div className="flex h-full flex-col">
+            <div className="mb-3 flex items-center justify-between">
+              <h3 className="truncate text-sm font-semibold text-white">
+                {owned.topping.name}
+              </h3>
+              <button
+                onClick={() => setIsFlipped(false)}
+                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-black/60 text-white/80 transition-colors hover:bg-black/80 hover:text-white"
+                aria-label="Flip back"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M15 18l-6-6 6-6" />
+                </svg>
+              </button>
+            </div>
+            <p className="mb-2 text-xs text-[#7DD3E8]">
+              Found on {owned.tokenIds.length} pizza{owned.tokenIds.length !== 1 ? "s" : ""}:
+            </p>
+            <div className="flex-1 space-y-1.5 overflow-y-auto pr-1">
+              {owned.tokenIds.map((tokenId) => (
+                <a
+                  key={tokenId}
+                  href={`${OPENSEA_BASE_URL}/${tokenId}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 rounded-lg bg-black/40 px-3 py-2 text-xs text-white transition-colors hover:bg-black/60"
+                >
+                  <span>Pizza #{tokenId}</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-auto shrink-0 text-[#7DD3E8]">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
 
